@@ -1,0 +1,6 @@
+New sync ntuple in
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-240615/SYNCFILE_VBF_HToTauTau_M-125_tt_phys14.root
+
+Changes from previous production:
+- Fixed mvamet and pfmet branches
+ 

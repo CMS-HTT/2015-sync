@@ -1,6 +1,9 @@
-New sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-240615/SYNCFILE_VBF_HToTauTau_M-125_tt_phys14.root
+Latest sync ntuple:
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-250615/SYNCFILE_VBF_HToTauTau_M-125_tt_phys14.root
 
-Changes from previous production:
+Changes wrt initial tuple:
+[24/06]
 - Fixed mvamet and pfmet branches
+[25/06]
+- Switched off tau ES
  

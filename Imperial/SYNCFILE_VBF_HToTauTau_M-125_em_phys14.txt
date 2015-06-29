@@ -1,8 +1,12 @@
-New sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-240615/SYNCFILE_VBF_HToTauTau_M-125_em_phys14.root
+Latest sync ntuple:
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-290615/SYNCFILE_VBF_HToTauTau_M-125_em_phys14.root
 
-Changes from previous production:
+Changes wrt initial tuple:
+[24/06]
 - Switched off electron-muon overlap filter
 - Fixed mvamet and pfmet branches
 - Fixed bug in sorting by isolation
+[29/06]
+- Fill pfmet branch with type-1 corrected met instead of raw met
+- Using mvamet without srcLeptons set
  

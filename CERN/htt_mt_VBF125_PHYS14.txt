@@ -1,0 +1,5 @@
+/afs/cern.ch/user/s/steggema/public/Sync2015/mt/VBF_HToTauTau_M-125_phys14.root
+
+Things to note:
+- MVA MET takes two final leptons into account as srcLeptons
+- tau is lepton 1 and muon lepton 2 instead of other way round

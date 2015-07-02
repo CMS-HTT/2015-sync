@@ -3,4 +3,5 @@ Ntuple location:
 /afs/cern.ch/user/f/fcolombo/public/kit_VBFHToTauTauM125_Phys14DR_PU20bx25_13TeV_MINIAODSIM.root
 
 [02.07]
-All branches added. To be considered as "first-shot".
+All branches added, filled with physical values where possible, otherwise
+default -999. To be considered as "first-shot".

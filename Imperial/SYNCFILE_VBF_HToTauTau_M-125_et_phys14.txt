@@ -1,5 +1,5 @@
 Latest sync ntuple:
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-290615/SYNCFILE_VBF_HToTauTau_M-125_et_phys14.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-050715/SYNCFILE_VBF_HToTauTau_M-125_et_phys14.root
 
 Changes wrt initial tuple:
 [24/06]
@@ -10,5 +10,7 @@ Changes wrt initial tuple:
 [29/06]
 - Fill pfmet branch with type-1 corrected met instead of raw met
 - Using mvamet without srcLeptons set
+[06/07]
+- Implement tau dZ cut as (tau.vertex.z=primaryvertex.z)
 
  

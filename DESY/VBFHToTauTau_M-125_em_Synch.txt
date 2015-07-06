@@ -1,5 +1,5 @@
 
 6/07/2015 -> Updated NTuple VBFHToTauTau_M-125_em_Synch.root
-1) bugfix in the implementation of medium muon Id 
-2) no offline cuts on pt of leptons firing higher pt legs of
-   HLT paths yet (will be implemented in the next iteration)
+1) bugfix in the implementation of the medium muon Id 
+2) offline cuts on pt of leptons firing higher pt legs of
+   HLT paths increased to 24 GeV

@@ -2,6 +2,9 @@ Ntuple location:
 
 /afs/cern.ch/user/f/fcolombo/public/kit_VBFHToTauTauM125_Phys14DR_PU20bx25_13TeV_MINIAODSIM.root
 
+[06.07]
+Tau dZ cut removed for sync purposes
+Trigger matching done on all the filters
 [05.07]
 Trigger matching on tau legs added
 [02.07]

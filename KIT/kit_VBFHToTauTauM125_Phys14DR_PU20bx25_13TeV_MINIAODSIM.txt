@@ -2,6 +2,9 @@ Ntuple location:
 
 /afs/cern.ch/user/f/fcolombo/public/kit_VBFHToTauTauM125_Phys14DR_PU20bx25_13TeV_MINIAODSIM.root
 
+[07.07]
+Tau dZ cut introduced as "tau->track.ref.z() == vertex->position.z()"
+Ordering of taus (iso-based) fixed
 [06.07]
 Tau dZ cut removed for sync purposes
 Trigger matching done on all the filters

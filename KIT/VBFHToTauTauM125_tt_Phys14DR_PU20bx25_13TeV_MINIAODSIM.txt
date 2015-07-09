@@ -1,0 +1,22 @@
+Ntuple location:
+
+/afs/cern.ch/user/f/fcolombo/public/VBFHToTauTauM125_tt_Phys14DR_PU20bx25_13TeV_MINIAODSIM.root
+
+Log of changes:
+[09.07]
+- Consider only "good" primary vertices ("!isFake && ndof >= 4.0 && abs(z) <= 24.0 && abs(position.Rho) <= 2.0")
+- muonFraction < 0.8 added to the Loose Jet ID
+- Lepton-Jet overlap check (R = 0.5) done only with respect to the selected lepton pair
+- All the quantites involving MET done with pfMET, following the definitions
+  from the working twiki
+[07.07]
+- Tau dZ cut introduced as "tau->track.ref.z() == vertex->position.z()"
+- Ordering of taus (iso-based) fixed
+[06.07]
+- Tau dZ cut removed for sync purposes
+- Trigger matching done on all the filters
+[05.07]
+- Trigger matching on tau legs added
+[02.07]
+- All branches added, filled with physical values where possible, otherwise 
+  default -999. To be considered as "first-shot".

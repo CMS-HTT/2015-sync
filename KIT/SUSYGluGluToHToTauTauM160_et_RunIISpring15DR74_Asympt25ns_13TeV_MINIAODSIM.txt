@@ -1,0 +1,7 @@
+Ntuple location:
+
+/afs/cern.ch/user/f/fcolombo/public/SUSYGluGluToHToTauTauM160_et_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
+
+Log of changes:
+[10.07]
+- First upload. Baseline identical to Phys14

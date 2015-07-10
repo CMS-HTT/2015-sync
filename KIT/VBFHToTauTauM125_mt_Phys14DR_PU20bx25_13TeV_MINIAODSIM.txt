@@ -5,5 +5,5 @@ Ntuple location:
 Log of changes:
 [09.07]
 - First upload
-- Muon dxy and dx calculated using the 'innerTrack()' instead of the
+- Muon dxy and dz calculated using the 'innerTrack()' instead of the
   'bestTrack()'

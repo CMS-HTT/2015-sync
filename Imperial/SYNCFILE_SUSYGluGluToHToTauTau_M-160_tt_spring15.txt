@@ -1,5 +1,7 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-090715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-100715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15.root
 
+[10/07]
+ - Fix evt branch so TTree::Scan() can print the numbers properly
 [09/07]
  - First version of spring15 sync ntuple

@@ -3,6 +3,8 @@ Ntuple location:
 /afs/cern.ch/user/f/fcolombo/public/VBFHToTauTauM125_mt_Phys14DR_PU20bx25_13TeV_MINIAODSIM.root
 
 Log of changes:
+[11.07]
+- 'OR' of the HLT filters implemented when more than one HLT path fires
 [09.07]
 - First upload
 - Muon dxy and dz calculated using the 'innerTrack()' instead of the

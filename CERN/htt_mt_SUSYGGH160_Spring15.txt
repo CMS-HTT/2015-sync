@@ -1,3 +1,9 @@
 /afs/cern.ch/user/s/steggema/public/Sync2015/mt/SUSYGluGluToHToTauTau_M-160_spring15.root
 
+13 July: 
+Several small updates; most important changes:
+- don't apply PV selection criteria
+- only apply PF jet ID
+(still no MVA MET calculation)
+
 9 July: Original upload; does not contain MVA MET

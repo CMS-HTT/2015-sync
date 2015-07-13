@@ -4,7 +4,14 @@ import numpy as np
 import ROOT
 from optparse import OptionParser
 
-from varCfg import vars
+from varCfg import var_dict
+
+# TODO (welcome by everybody):
+# - Please add more variables to varCfg.py if the default range finding doesn't
+#   give good results
+# - Add ratio plots
+# - Extend this list :-)
+
 
 ROOT.gROOT.SetBatch(True)
 
@@ -16,6 +23,8 @@ def findTree(f):
         tree = f.Get(key.GetName())
         if isinstance(tree, ROOT.TTree):
             return tree
+        elif isinstance(tree, ROOT.TDirectory):
+            return findTree(tree)
     print 'Failed to find a TTree in file', f
     return None
 
@@ -44,10 +53,10 @@ def comparisonPlots(u_names, trees, titles, pname='sync.pdf'):
 
         min_x = min(0., min_x)
 
-        if branch in vars:
-            nbins = vars[branch]['nbinsx']
-            min_x = vars[branch]['xmin']
-            max_x = vars[branch]['xmax']
+        if branch in var_dict:
+            nbins = var_dict[branch]['nbinsx']
+            min_x = var_dict[branch]['xmin']
+            max_x = var_dict[branch]['xmax']
 
 
         hists = []
@@ -123,7 +132,21 @@ def interSect(tree1, tree2, var='evt', common=False, save=False,  titles=[]):
 
 if __name__ == '__main__':
         
-    parser = OptionParser()
+    usage = '''
+%prog [options] arg1 arg2 ... argN
+
+    Compares first found trees in N different root files; 
+    in case of two root files, additional information about the event overlap
+    will be calculated.
+
+    Example run commands:
+
+> python compare.py /afs/cern.ch/user/s/steggema/public/Sync2015/mt/SUSYGluGluToHToTauTau_M-160_spring15.root /afs/cern.ch/work/a/adewit/public/syncNtuples/sync-100715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_spring15.root -t CERN,Imperial
+
+> python compare.py /afs/cern.ch/user/s/steggema/public/Sync2015/mt/SUSYGluGluToHToTauTau_M-160_spring15.root /afs/cern.ch/user/f/fcolombo/public/SUSYGluGluToHToTauTauM160_mt_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root /afs/cern.ch/work/a/adewit/public/syncNtuples/sync-100715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_spring15.root -t CERN,KIT,Imperial
+'''
+
+    parser = OptionParser(usage=usage)
 
     parser.add_option('-t', '--titles', type='string', dest='titles', default='Imperial,KIT', help='Comma-separated list of titles for the N input files (e.g. Imperial,KIT)')
     parser.add_option('-i', '--no-intersection', dest='do_intersect', action='store_false', default=True, help='Do not produce plots for events not in common')

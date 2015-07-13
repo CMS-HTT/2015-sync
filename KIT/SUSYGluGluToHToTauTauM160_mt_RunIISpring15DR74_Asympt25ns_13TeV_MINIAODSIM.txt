@@ -3,6 +3,8 @@ Ntuple location:
 /afs/cern.ch/user/f/fcolombo/public/SUSYGluGluToHToTauTauM160_mt_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
 
 Log of changes:
+[13.07]
+- packedLeadTauCand used for calculating the tau dZ
 [11.07]
 - 'OR' of the HLT filters implemented when more than one HLT path fires
 [09.07]

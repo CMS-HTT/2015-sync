@@ -4,6 +4,8 @@ import numpy as np
 import ROOT
 from optparse import OptionParser
 
+from varCfg import vars
+
 ROOT.gROOT.SetBatch(True)
 
 colours = [1, 2, 3, 6, 8]
@@ -30,21 +32,28 @@ def comparisonPlots(u_names, trees, titles, pname='sync.pdf'):
     c.Print(pname+'[')
 
     for branch in u_names:
+        nbins = 50
         min_x = min(t.GetMinimum(branch) for t in trees)
         max_x = max(t.GetMaximum(branch) for t in trees)
 
         if min_x == max_x:
             continue
 
-        if min_x < -9000 and max_x < 5000.:
+        if min_x < -900 and max_x < -min_x * 1.5:
             min_x = - max_x
 
         min_x = min(0., min_x)
 
+        if branch in vars:
+            nbins = vars[branch]['nbinsx']
+            min_x = vars[branch]['xmin']
+            max_x = vars[branch]['xmax']
+
+
         hists = []
         for i, t in enumerate(trees):
             h_name = branch+t.GetName()
-            h = ROOT.TH1F(h_name, branch, 50, min_x, max_x + (max_x - min_x) * 0.01)
+            h = ROOT.TH1F(h_name, branch, nbins, min_x, max_x + (max_x - min_x) * 0.01)
             applyHistStyle(h, i)
             t.Project(h_name, branch, '1') # Should introduce weight...
             hists.append(h)
@@ -78,11 +87,17 @@ def interSect(tree1, tree2, var='evt', common=False, save=False,  titles=[]):
     
     tree1.Draw(var)
     r_evt1 = tree1.GetV1()
-    evt1 = np.array([r_evt1[i] for i in xrange(tree1.GetEntries())], dtype=int)
+    if len(titles) > 0 and titles[0] == 'Imperial':
+        evt1 = np.array([int(r_evt1[i]) & 0xffffffff for i in xrange(tree2.GetEntries())], dtype=int)
+    else:
+        evt1 = np.array([r_evt1[i] for i in xrange(tree1.GetEntries())], dtype=int)
 
     tree2.Draw(var)
     r_evt2 = tree2.GetV1()
-    evt2 = np.array([r_evt2[i] for i in xrange(tree2.GetEntries())], dtype=int)
+    if len(titles) > 1 and titles[1] == 'Imperial':
+        evt2 = np.array([int(r_evt2[i]) & 0xffffffff for i in xrange(tree2.GetEntries())], dtype=int)
+    else:
+        evt2 = np.array([int(r_evt2[i]) for i in xrange(tree2.GetEntries())], dtype=int)
 
     if common:
         indices1 = np.nonzero(np.in1d(evt1, evt2))
@@ -135,6 +150,8 @@ if __name__ == '__main__':
     b_names = [set([b.GetName() for b in t.GetListOfBranches()]) for t in trees]
 
     u_names = set.intersection(*b_names)
+
+    u_names = sorted(u_names)
 
     print 'Making plots for all common branches', u_names
 

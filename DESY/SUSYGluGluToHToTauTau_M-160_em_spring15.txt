@@ -1,0 +1,2 @@
+14/07/2015 initial synch NTuple for em channel (Spring15 MC)
+/afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_em_spring15.root

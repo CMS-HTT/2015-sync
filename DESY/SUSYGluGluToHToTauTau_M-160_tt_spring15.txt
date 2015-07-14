@@ -1,0 +1,2 @@
+14/07/2015 initial synch NTuple for tt channel (Spring15 MC)
+/afs/cern.ch/work/a/anayak/public/HTauTau/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_tt_spring15.root

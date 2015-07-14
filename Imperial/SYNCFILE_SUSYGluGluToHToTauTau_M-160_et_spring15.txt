@@ -1,6 +1,10 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-100715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_spring15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-140715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_spring15.root
 
+[14/07]
+ - Correct jet pT cut
+ - Fill tau discriminator branches correctly
+ - NOTE: using wrong pfMet collection (will be fixed soon)
 [10/07]
  - Fix evt branch so TTree::Scan() can print the numbers properly
 [09/07]

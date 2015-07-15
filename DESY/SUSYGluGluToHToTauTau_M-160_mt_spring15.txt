@@ -1,0 +1,2 @@
+15/07/2015 : initial mu-tau synch ntuple
+/afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_mt_spring15.root

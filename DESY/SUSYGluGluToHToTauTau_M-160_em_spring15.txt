@@ -1,2 +1,7 @@
-14/07/2015 initial synch NTuple for em channel (Spring15 MC)
+15/07/2015 : bug fix in the medium muon Id -> 
+/afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_em_spring15.root
+NTuple w/o trigger requirement ->
+/afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_em_noTrigger_spring15.root
+----
+14/07/2015 : initial synch NTuple for em channel (Spring15 MC)
 /afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_em_spring15.root

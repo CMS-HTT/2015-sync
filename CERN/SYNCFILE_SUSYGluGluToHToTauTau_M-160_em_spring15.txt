@@ -1,0 +1,6 @@
+sync ntuple in
+
+/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_spring15.root
+
+[15/07]
+ - First version of spring15 sync ntuple

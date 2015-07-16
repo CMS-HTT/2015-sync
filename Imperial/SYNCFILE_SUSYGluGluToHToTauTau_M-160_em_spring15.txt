@@ -1,6 +1,11 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-140715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_spring15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-160715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_spring15.root
 
+[16/07]
+ - Now using correct pfMet collection
+ - Bug fix to trigger filter matching
+ - Removing cut based preselection from electron MVA ID
+ - Increasing muon pT cut to 10 GeV to avoid overlap with other channels
 [14/07]
  - Correct jet pT cut
  - NOTE: Using wrong pfMet collection (will be fixed soon)

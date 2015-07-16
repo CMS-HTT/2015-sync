@@ -3,6 +3,8 @@ Ntuple location:
 /afs/cern.ch/user/f/fcolombo/public/SUSYGluGluToHToTauTauM160_mt_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
 
 Log of changes:
+[16.07]
+- More branches filled with meaningful values (e.g., extra lepton vetoes)
 [14.07]
 - Correct jet pT cut
 - Remove selections on the PV (simply take the first of the collection in the

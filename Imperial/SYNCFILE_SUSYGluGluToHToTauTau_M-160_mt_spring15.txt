@@ -1,8 +1,11 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-140715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_spring15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-160715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_spring15.root
 
+[16/07]
+ - Remove cut-based electron ID pre-selection from MVA ID
+ - pfMet from slimmedMETs collection
 [14/07]
- - Correct jet pT cut
+- Correct jet pT cut
  - Fill tau discriminator branches correctly
  - NOTE: using wrong pfMet collection (will be fixed soon)
 [10/07]

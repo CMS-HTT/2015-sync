@@ -1,7 +1,10 @@
 Ntuple location:
 
-/afs/cern.ch/user/r/rcaspart/public/sync/SUSYGluGluToHToTauTauM160_em_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
+/afs/cern.ch/user/r/rcaspart/public/sync/16072015/SUSYGluGluToHToTauTauM160_em_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
 
 Log of changes:
+[16.07]
+-Increased Muon pT cut to 10GeV
+-Added information from extra lepton vetos
 [15.07]
 -First upload

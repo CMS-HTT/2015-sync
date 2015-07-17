@@ -1,6 +1,10 @@
-sync ntuple in
+Latest sync ntuple in
+/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_spring15_v2.root
 
-/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_spring15.root
+[17/07]
+ - Add leading lepton pT cut for the leading lepton in trigger path (in case both are fired, either e or mu should have pT > 24)
+
 
 [15/07]
  - First version of spring15 sync ntuple
+ - /afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_spring15.root

@@ -1,2 +1,5 @@
+21/07/2015 Including selection cut: Abs(tau_charge) == 1
+/afs/cern.ch/work/a/anayak/public/HTauTau/Synch-Spring15/21July/SUSYGluGluToHToTauTau_M-160_tt_spring15.root
+
 14/07/2015 initial synch NTuple for tt channel (Spring15 MC)
 /afs/cern.ch/work/a/anayak/public/HTauTau/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_tt_spring15.root

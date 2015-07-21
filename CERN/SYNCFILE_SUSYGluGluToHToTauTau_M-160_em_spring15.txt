@@ -1,9 +1,12 @@
 Latest sync ntuple in
-/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_spring15_v2.root
+/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_spring15_v3.root
+
+[21/07]
+ - update vertex collection (good vertex collection -> normal vertex collection)
 
 [17/07]
  - Add leading lepton pT cut for the leading lepton in trigger path (in case both are fired, either e or mu should have pT > 24)
-
+ - /afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_spring15_v3.root
 
 [15/07]
  - First version of spring15 sync ntuple

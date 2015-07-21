@@ -1,6 +1,9 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-160715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-210715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15.root
 
+[21/07]
+ - Require abs(tau charge)==1
+ - Add conversion veto and missing inner hits requirement to electron MVA ID
 [16/07]
  - Remove cut-based electron ID pre-selection from MVA ID
  - pfMet from slimmedMETs collection

@@ -1,6 +1,9 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-160715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_spring15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-210715/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_spring15.root
 
+[21/07]
+ - Add conversion veto and missing inner hits requirement to electron MVA ID
+ - Raise muon pT cut to 10 GeV
 [16/07]
  - Now using correct pfMet collection
  - Bug fix to trigger filter matching

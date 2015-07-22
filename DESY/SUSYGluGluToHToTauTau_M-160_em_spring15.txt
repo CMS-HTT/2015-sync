@@ -1,13 +1,14 @@
+Latest NTuple
+/afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_em_DESY.root
+
+22/07/2015 : correction in electron Id: # of missing inner hits <=1 
+             (before : # of missing inner hits == 0)
+
 19/07/2015 : 1) cut of 24 GeV is applied on leptons firing higher pt legs of e-mu triggers,
              2) cut on muon pt of is raised to 10 GeV (the same cut as applied to veto
                 additional muons) 
-             New ntuple: /afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_em_spring15.root
-             Ntuple, where conversion veto and condition # of missing inner hits = 0
-             are part of electron Id : /afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_em_convVeto_spring15.root  
 
-----
 15/07/2015 : bug fix in the medium muon Id -> 
-            /afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_em_spring15.root
-----
+
 14/07/2015 : initial synch NTuple for em channel (Spring15 MC)
              /afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_em_spring15.root

@@ -1,5 +1,12 @@
-/afs/cern.ch/user/s/steggema/public/Sync2015/et/SUSYGluGluToHToTauTau_M-160_spring15.root
+Latest sync ntuple in
+/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_et_spring15_v1.root
 
-16 July: 
+[22 July]
+- add e pT > 33 GeV in case single electron trigger
+- add conversion veto and missing inner hits
+
+
+[16 July]
+/afs/cern.ch/user/s/steggema/public/Sync2015/et/SUSYGluGluToHToTauTau_M-160_spring15.root
 Initial upload
 (note: no MVA MET)

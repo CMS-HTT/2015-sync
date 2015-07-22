@@ -4,7 +4,9 @@ File location:
 Updates:
 
 Jul 22:
+- remove clean ghost muons
 - update to latest baseline
+- fix last event saving bug
 
 Jul 15:
 - initial

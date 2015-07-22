@@ -1,2 +1,10 @@
+Latest NTuple
+/afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_mt_DESY.root  
+
+22/07/2015 : 1) cut is raised on pt of muon firing HLT_IsoMu24 trigger but not
+                muon leg of the muon-tau cross trigger (pt > 25 GeV)
+ 	     2) condition |q(tau)| = 1 is implemented (tau charge must be 
+                -1 or +1)  	  
+
 15/07/2015 : initial mu-tau synch ntuple
-/afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_mt_spring15.root
+

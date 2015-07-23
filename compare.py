@@ -3,6 +3,7 @@ import numpy as np
 
 import ROOT
 from optparse import OptionParser
+from copy import deepcopy as dc
 
 from varCfg import var_dict
 
@@ -14,6 +15,7 @@ from varCfg import var_dict
 
 
 ROOT.gROOT.SetBatch(True)
+ROOT.TH1.SetDefaultSumw2()
 
 colours = [1, 2, 3, 6, 8]
 styles = [2, 1, 3, 4, 5]
@@ -35,9 +37,18 @@ def applyHistStyle(h, i):
     h.SetStats(False)
 
 
-def comparisonPlots(u_names, trees, titles, pname='sync.pdf'):
+def comparisonPlots(u_names, trees, titles, ratio = True, pname='sync.pdf'):
 
-    c = ROOT.TCanvas()
+    c = ROOT.TCanvas()    
+
+    if ratio:
+        histoPad = ROOT.TPad('histoPad', 'histoPad', 0., 0.3 , 1., .95)
+        histoPad.Draw()
+
+        ratioPad = ROOT.TPad('ratioPad', 'ratioPad', 0., 0.05, 1., .36)
+        ratioPad.Draw()
+        ratioPad.SetGridy(True)
+
     c.Print(pname+'[')
 
     for branch in u_names:
@@ -74,9 +85,13 @@ def comparisonPlots(u_names, trees, titles, pname='sync.pdf'):
         leg.SetFillStyle(0)
         leg.SetLineColor(0)
 
+        if ratio: 
+            histoPad.cd()
         for i, h in enumerate(hists):
             title = titles[i]
             h.GetYaxis().SetRangeUser(0., ymax * 1.2)
+            if ratio:
+                h.GetXaxis().SetLabelSize(0.)
             leg.AddEntry(h, title + ': ' + str(h.Integral()))
             if i == 0:
                 h.Draw('HIST E')
@@ -84,7 +99,24 @@ def comparisonPlots(u_names, trees, titles, pname='sync.pdf'):
                 h.Draw('SAME HIST E')
 
         leg.Draw()
-
+        
+        if ratio:
+            ratioPad.cd()
+            denom = dc(hists[0])
+            for i, h in enumerate(hists[1:]):
+                num = dc(h)
+                num.Divide(denom) 
+                num.GetYaxis().SetRangeUser(0.,2.)
+                num.SetTitle('')
+                num.GetXaxis()
+                num.GetYaxis().SetLabelSize(0.08)
+                num.GetXaxis().SetLabelSize(0.1)
+                num.GetYaxis().SetNdivisions(5, True)
+                if i == 0:
+                    num.Draw('E')
+                else:
+                    num.Draw('SAME E')
+        
         c.Print(pname)
 
     c.Print(pname+']')

@@ -1,0 +1,3 @@
+/afs/cern.ch/user/f/fcostanz/public/Synch-Phys14/VBFHToTauTau_M-125_et_Synch.root
+
+23/07/2015 -> First NTuple VBFHToTauTau_M-125_et_Synch.root

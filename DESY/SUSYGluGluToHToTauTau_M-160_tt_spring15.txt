@@ -1,3 +1,6 @@
+23/07/2015 correct pT threshold for veto jets
+/afs/cern.ch/work/a/anayak/public/HTauTau/Synch-Spring15/23July/SUSYGluGluToHToTauTau_M-160_tt_spring15.root
+
 21/07/2015 Including selection cut: Abs(tau_charge) == 1
 /afs/cern.ch/work/a/anayak/public/HTauTau/Synch-Spring15/21July/SUSYGluGluToHToTauTau_M-160_tt_spring15.root
 

@@ -1,3 +1,6 @@
+24/07/2015 corrected selections for extra lepton veto
+/afs/cern.ch/work/a/anayak/public/HTauTau/Synch-Spring15/24July/SUSYGluGluToHToTauTau_M-160_tt_spring15.root
+
 23/07/2015 correct pT threshold for veto jets
 /afs/cern.ch/work/a/anayak/public/HTauTau/Synch-Spring15/23July/SUSYGluGluToHToTauTau_M-160_tt_spring15.root
 

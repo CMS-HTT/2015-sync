@@ -1,10 +1,14 @@
 Latest sync ntuple in
-/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_et_spring15_v1.root
+/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_et_spring15_v2.root
+
+[24 July]
+- changed electron isolation calculation cone to be 0.3 (from 0.4)
 
 [22 July]
 - add e pT > 33 GeV in case single electron trigger
 - add conversion veto and missing inner hits
 
+/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_et_spring15_v1.root
 
 [16 July]
 /afs/cern.ch/user/s/steggema/public/Sync2015/et/SUSYGluGluToHToTauTau_M-160_spring15.root

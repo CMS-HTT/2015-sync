@@ -1,4 +1,10 @@
-/afs/cern.ch/user/s/steggema/public/Sync2015/mt/SUSYGluGluToHToTauTau_M-160_spring15.root
+/afs/cern.ch/user/s/steggema/public/Sync2015/mt/SUSYGluGluToHToTauTau_M-160_spring15_2407.root
+
+24 July:
+Updates as discussed on list:
+- Add pT cut for single muon trigger leg
+- Use fraction > 0.8 in medium muon ID as agreed with muon POG conveners
+- Add tau charge requirement
 
 13 July: 
 Several small updates; most important changes:

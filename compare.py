@@ -216,13 +216,13 @@ if __name__ == '__main__':
         intersect = interSect(trees[0], trees[1], save=True, titles=titles)
         trees[0].SetEntryList(intersect[0])
         trees[1].SetEntryList(intersect[1])
-        comparisonPlots(u_names, trees, titles, 'intersect.pdf')
+        comparisonPlots(u_names, trees, titles, True, 'intersect.pdf')
 
 
     if len(trees) == 2:
         intersect = interSect(trees[0], trees[1], common=True)
         trees[0].SetEntryList(intersect[0])
         trees[1].SetEntryList(intersect[1])
-        comparisonPlots(u_names, trees, titles, 'common.pdf')
+        comparisonPlots(u_names, trees, titles, True, 'common.pdf')
 
 

@@ -3,19 +3,19 @@ import numpy as np
 
 import ROOT
 from optparse import OptionParser
-from copy import deepcopy as dc
 
 from varCfg import var_dict
+
+from DisplayManager import *
 
 # TODO (welcome by everybody):
 # - Please add more variables to varCfg.py if the default range finding doesn't
 #   give good results
-# - Add ratio plots
 # - Extend this list :-)
 
 
 ROOT.gROOT.SetBatch(True)
-ROOT.TH1.SetDefaultSumw2()
+ROOT.gStyle.SetOptStat(0)
 
 colours = [1, 2, 3, 6, 8]
 styles = [2, 1, 3, 4, 5]
@@ -37,19 +37,12 @@ def applyHistStyle(h, i):
     h.SetStats(False)
 
 
-def comparisonPlots(u_names, trees, titles, ratio = True, pname='sync.pdf'):
+def comparisonPlots(u_names, trees, titles, pname='sync.pdf', ratio=True):
 
-    c = ROOT.TCanvas()    
-
-    if ratio:
-        histoPad = ROOT.TPad('histoPad', 'histoPad', 0., 0.3 , 1., .95)
-        histoPad.Draw()
-
-        ratioPad = ROOT.TPad('ratioPad', 'ratioPad', 0., 0.05, 1., .36)
-        ratioPad.Draw()
-        ratioPad.SetGridy(True)
-
-    c.Print(pname+'[')
+    display = DisplayManager(pname, ratio)
+   
+#    c = ROOT.TCanvas()
+#    c.Print(pname+'[')
 
     for branch in u_names:
         nbins = 50
@@ -74,52 +67,17 @@ def comparisonPlots(u_names, trees, titles, ratio = True, pname='sync.pdf'):
         for i, t in enumerate(trees):
             h_name = branch+t.GetName()
             h = ROOT.TH1F(h_name, branch, nbins, min_x, max_x + (max_x - min_x) * 0.01)
+            h.Sumw2()
             applyHistStyle(h, i)
             t.Project(h_name, branch, '1') # Should introduce weight...
             hists.append(h)
-        
-        ymax = max(h.GetMaximum() for h in hists)
 
-        leg = ROOT.TLegend(0.15,0.79,0.5,0.89)
-        leg.SetFillColor(0)
-        leg.SetFillStyle(0)
-        leg.SetLineColor(0)
 
-        if ratio: 
-            histoPad.cd()
-        for i, h in enumerate(hists):
-            title = titles[i]
-            h.GetYaxis().SetRangeUser(0., ymax * 1.2)
-            if ratio:
-                h.GetXaxis().SetLabelSize(0.)
-            leg.AddEntry(h, title + ': ' + str(h.Integral()))
-            if i == 0:
-                h.Draw('HIST E')
-            else:
-                h.Draw('SAME HIST E')
+        display.Draw(hists, titles)
 
-        leg.Draw()
-        
-        if ratio:
-            ratioPad.cd()
-            denom = dc(hists[0])
-            for i, h in enumerate(hists[1:]):
-                num = dc(h)
-                num.Divide(denom) 
-                num.GetYaxis().SetRangeUser(0.,2.)
-                num.SetTitle('')
-                num.GetXaxis()
-                num.GetYaxis().SetLabelSize(0.08)
-                num.GetXaxis().SetLabelSize(0.1)
-                num.GetYaxis().SetNdivisions(5, True)
-                if i == 0:
-                    num.Draw('E')
-                else:
-                    num.Draw('SAME E')
-        
-        c.Print(pname)
+#        c.Print(pname)
 
-    c.Print(pname+']')
+#    c.Print(pname+']')
 
 def interSect(tree1, tree2, var='evt', common=False, save=False,  titles=[]):
     # run, lumi, evt
@@ -183,6 +141,7 @@ if __name__ == '__main__':
     parser.add_option('-t', '--titles', type='string', dest='titles', default='Imperial,KIT', help='Comma-separated list of titles for the N input files (e.g. Imperial,KIT)')
     parser.add_option('-i', '--no-intersection', dest='do_intersect', action='store_false', default=True, help='Do not produce plots for events not in common')
     parser.add_option('-c', '--no-common', dest='do_common', action='store_false', default=True, help='Do not produce plots for events in common')
+    parser.add_option('-r', '--no-ratio', dest='do_ratio', action='store_false', default=True, help='Do not show ratio plots')
 
     (options,args) = parser.parse_args()
 
@@ -210,19 +169,19 @@ if __name__ == '__main__':
 
     print 'Making plots for all common branches', u_names
 
-    comparisonPlots(u_names, trees, titles)
+    comparisonPlots(u_names, trees, titles, 'sync.pdf', options.do_ratio)
 
     if len(trees) == 2 and options.do_intersect:
         intersect = interSect(trees[0], trees[1], save=True, titles=titles)
         trees[0].SetEntryList(intersect[0])
         trees[1].SetEntryList(intersect[1])
-        comparisonPlots(u_names, trees, titles, True, 'intersect.pdf')
+        comparisonPlots(u_names, trees, titles, 'intersect.pdf', options.do_ratio)
 
 
     if len(trees) == 2:
         intersect = interSect(trees[0], trees[1], common=True)
         trees[0].SetEntryList(intersect[0])
         trees[1].SetEntryList(intersect[1])
-        comparisonPlots(u_names, trees, titles, True, 'common.pdf')
+        comparisonPlots(u_names, trees, titles, 'common.pdf', options.do_ratio)
 
 

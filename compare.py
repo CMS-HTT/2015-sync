@@ -5,7 +5,6 @@ import ROOT
 from optparse import OptionParser
 
 from varCfg import var_dict
-
 from DisplayManager import *
 
 # TODO (welcome by everybody):
@@ -42,9 +41,6 @@ def comparisonPlots(u_names, trees, titles, pname='sync.pdf', ratio=True):
 
     display = DisplayManager(pname, ratio)
    
-#    c = ROOT.TCanvas()
-#    c.Print(pname+'[')
-
     for branch in u_names:
         nbins = 50
         min_x = min(t.GetMinimum(branch) for t in trees)
@@ -76,9 +72,6 @@ def comparisonPlots(u_names, trees, titles, pname='sync.pdf', ratio=True):
 
         display.Draw(hists, titles)
 
-#        c.Print(pname)
-
-#    c.Print(pname+']')
 
 def interSect(tree1, tree2, var='evt', common=False, save=False,  titles=[]):
     # run, lumi, evt

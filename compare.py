@@ -11,7 +11,7 @@ from DisplayManager import *
 # TODO (welcome by everybody):
 # - Please add more variables to varCfg.py if the default range finding doesn't
 #   give good results
-# - Add ratio plots (YT : done ... please feel free to modify)
+# - Add ratio plots (YT : 25 Jul done ... please feel free to modify)
 # - Extend this list :-)
 
 

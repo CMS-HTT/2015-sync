@@ -5,7 +5,7 @@ import ROOT
 from optparse import OptionParser
 
 from varCfg import var_dict
-from DisplayManager import *
+from DisplayManager import DisplayManager
 
 # TODO (welcome by everybody):
 # - Please add more variables to varCfg.py if the default range finding doesn't
@@ -45,6 +45,7 @@ def comparisonPlots(u_names, trees, titles, pname='sync.pdf', ratio=True):
         nbins = 50
         min_x = min(t.GetMinimum(branch) for t in trees)
         max_x = max(t.GetMaximum(branch) for t in trees)
+        title_x = branch
 
         if min_x == max_x:
             continue
@@ -55,9 +56,11 @@ def comparisonPlots(u_names, trees, titles, pname='sync.pdf', ratio=True):
         min_x = min(0., min_x)
 
         if branch in var_dict:
-            nbins = var_dict[branch]['nbinsx']
-            min_x = var_dict[branch]['xmin']
-            max_x = var_dict[branch]['xmax']
+            b_d = var_dict[branch]
+            nbins = b_d['nbinsx'] if 'nbinsx' in b_d else nbins
+            min_x = b_d['xmin'] if 'xmin' in b_d else min_x
+            max_x = b_d['xmax'] if 'xmax' in b_d else max_x
+            title_x = b_d['title'] if 'title' in b_d else title_x
 
 
         hists = []
@@ -65,6 +68,8 @@ def comparisonPlots(u_names, trees, titles, pname='sync.pdf', ratio=True):
             h_name = branch+t.GetName()
             h = ROOT.TH1F(h_name, branch, nbins, min_x, max_x + (max_x - min_x) * 0.01)
             h.Sumw2()
+            h.GetXaxis().SetTitle(title_x)
+            h.GetYaxis().SetTitle('Entries')
             applyHistStyle(h, i)
             t.Project(h_name, branch, '1') # Should introduce weight...
             hists.append(h)

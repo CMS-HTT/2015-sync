@@ -1,4 +1,7 @@
-/afs/cern.ch/user/s/steggema/public/Sync2015/mt/SUSYGluGluToHToTauTau_M-160_spring15_2407.root
+/afs/cern.ch/user/s/steggema/public/Sync2015/mt/SUSYGluGluToHToTauTau_M-160_spring15_2807.root
+
+28 July:
+- fix pair algo
 
 24 July:
 Updates as discussed on list:

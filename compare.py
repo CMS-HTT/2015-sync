@@ -119,6 +119,35 @@ def interSect(tree1, tree2, var='evt', common=False, save=False,  titles=[]):
 
     return tlist1, tlist2
 
+
+def scanForDiff(tree1, tree2, branch_names, scan_var='pt_1', index_var='evt'):
+    # tree1.BuildIndex(index_var)
+    # index1 = tree1.GetTreeIndex()
+    tree2.BuildIndex(index_var)
+
+    diff_events = []
+
+    for entry_1 in tree1:
+        ind = int(getattr(tree1, index_var))
+        tree2.GetEntryWithIndex(ind)
+
+        var1 = getattr(tree1, scan_var)
+        var2 = getattr(tree2, scan_var)
+
+        if round(var1, 6) != round(var2, 6): 
+            diff_events.append(ind)
+            print 'Event', ind
+            for branch in branch_names:
+                v1 = getattr(tree1, branch)
+                v2 = getattr(tree2, branch)
+                if round(v1, 6) != round(v2, 6) and v1 > -99.:
+                    print '{b:>43}: {v1:>8.4f}, {v2:>8.4f}'.format(b=branch, v1=v1, v2=v2)
+            print
+
+    print 'Found', len(diff_events), 'events with differences in', scan_var
+    print diff_events
+
+
 if __name__ == '__main__':
         
     usage = '''
@@ -141,6 +170,8 @@ if __name__ == '__main__':
     parser.add_option('-i', '--no-intersection', dest='do_intersect', action='store_false', default=True, help='Do not produce plots for events not in common')
     parser.add_option('-c', '--no-common', dest='do_common', action='store_false', default=True, help='Do not produce plots for events in common')
     parser.add_option('-r', '--no-ratio', dest='do_ratio', action='store_false', default=True, help='Do not show ratio plots')
+    parser.add_option('-d', '--diff', dest='do_diff', action='store_true', default=False, help='Print events where single variable differs')
+    parser.add_option('-v', '--var-diff', dest='var_diff', default='pt_1', help='Variable for printing single event diffs')
 
     (options,args) = parser.parse_args()
 
@@ -170,6 +201,7 @@ if __name__ == '__main__':
 
     comparisonPlots(u_names, trees, titles, 'sync.pdf', options.do_ratio)
 
+
     if len(trees) == 2 and options.do_intersect:
         intersect = interSect(trees[0], trees[1], save=True, titles=titles)
         trees[0].SetEntryList(intersect[0])
@@ -177,10 +209,12 @@ if __name__ == '__main__':
         comparisonPlots(u_names, trees, titles, 'intersect.pdf', options.do_ratio)
 
 
-    if len(trees) == 2:
+    if len(trees) == 2 and options.do_common:
         intersect = interSect(trees[0], trees[1], common=True)
         trees[0].SetEntryList(intersect[0])
         trees[1].SetEntryList(intersect[1])
         comparisonPlots(u_names, trees, titles, 'common.pdf', options.do_ratio)
 
-
+    if len(trees) == 2 and options.do_diff:
+        scanForDiff(trees[0], trees[1], u_names, scan_var=options.var_diff)
+    

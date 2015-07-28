@@ -1,4 +1,10 @@
 Latest sync ntuple in
+/afs/cern.ch/user/s/steggema/public/Sync2015/et/SUSYGluGluToHToTauTau_M-160_spring15_2807.root
+
+[27 July]
+- Update trigger matching + tau charge = 1
+
+
 /afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_et_spring15_v3.root
 
 

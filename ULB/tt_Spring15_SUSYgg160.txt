@@ -1,5 +1,15 @@
-23 July: Initial ntuple
------------------------
-
 /afs/cern.ch/user/c/ccaillol/public/tt_Spring15_sync.root
+
+29 July:
+--------
+
+- Correct rho, npv
+- New MVA electron ID
+- Add b variables
+- Correct vertex
+
+23 July: 
+--------
+
+- Initial ntuple
 

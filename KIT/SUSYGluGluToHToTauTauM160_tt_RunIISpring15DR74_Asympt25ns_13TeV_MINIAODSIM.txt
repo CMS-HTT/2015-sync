@@ -3,6 +3,9 @@ Ntuple location:
 /afs/cern.ch/user/f/fcolombo/public/SUSYGluGluToHToTauTauM160_tt_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
 
 Log of changes:
+[29.07]
+- Trigger matching strategy updated
+- Additional pT cuts implemented
 [20.07]
 - Pair selection algorithm fixed
 [19.07]

@@ -1,5 +1,14 @@
-23 July: Initial ntuple
------------------------
-
 /afs/cern.ch/user/c/ccaillol/public/mt_Spring15_sync.root
+
+29 July:
+--------
+
+- Correct npv, rho
+- Choice of vertex
+- Add trigger filters
+
+23 July: 
+--------
+
+- Initial ntuple
 

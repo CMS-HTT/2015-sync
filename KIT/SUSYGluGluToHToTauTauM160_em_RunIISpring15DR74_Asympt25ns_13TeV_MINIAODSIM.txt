@@ -1,8 +1,10 @@
 Ntuple location:
 
-/afs/cern.ch/user/r/rcaspart/public/sync/16072015/SUSYGluGluToHToTauTauM160_em_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
+/afs/cern.ch/user/r/rcaspart/public/sync/29072015/SUSYGluGluToHToTauTauM160_em_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
 
 Log of changes:
+[29.07]
+-fixed threshold for lepton firing the higher pT trigger leg
 [16.07]
 -Increased Muon pT cut to 10GeV
 -Added information from extra lepton vetos

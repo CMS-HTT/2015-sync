@@ -1,5 +1,13 @@
-28 July: Initial ntuple
------------------------
-
 /afs/cern.ch/user/c/ccaillol/public/em_Spring15_sync.root
+
+29 July:
+--------
+
+- Correct rho, npv
+- Change vertex definition
+
+28 July: 
+--------
+
+Initial ntuple
 

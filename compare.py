@@ -47,7 +47,7 @@ def comparisonPlots(u_names, trees, titles, pname='sync.pdf', ratio=True):
         max_x = max(t.GetMaximum(branch) for t in trees)
         title_x = branch
 
-        if min_x == max_x:
+        if min_x == max_x or all(t.GetMinimum(branch) == t.GetMaximum(branch) for t in trees):
             continue
 
         if min_x < -900 and max_x < -min_x * 1.5:
@@ -65,7 +65,7 @@ def comparisonPlots(u_names, trees, titles, pname='sync.pdf', ratio=True):
 
         hists = []
         for i, t in enumerate(trees):
-            h_name = branch+t.GetName()
+            h_name = branch+t.GetName()+str(i)
             h = ROOT.TH1F(h_name, branch, nbins, min_x, max_x + (max_x - min_x) * 0.01)
             h.Sumw2()
             h.GetXaxis().SetTitle(title_x)
@@ -134,6 +134,9 @@ def scanForDiff(tree1, tree2, branch_names, scan_var='pt_1', index_var='evt'):
         var1 = getattr(tree1, scan_var)
         var2 = getattr(tree2, scan_var)
 
+        if tree1.evt != tree2.evt:
+            continue
+
         if round(var1, 6) != round(var2, 6): 
             diff_events.append(ind)
             print 'Event', ind
@@ -185,6 +188,15 @@ if __name__ == '__main__':
         print 'Provide at least as many titles as input files'
         sys.exit(1)
 
+    for i, arg in enumerate(args):
+        if arg.endswith('.txt'):
+            f_txt = open(arg)
+            for line in f_txt.read().splitlines():
+                line.strip()
+                if line.startswith('/afs'):
+                    args[i] = line
+                    break
+
     tfiles = [ROOT.TFile(arg) for arg in args]
 
     trees = [findTree(f) for f in tfiles]
@@ -206,7 +218,8 @@ if __name__ == '__main__':
         intersect = interSect(trees[0], trees[1], save=True, titles=titles)
         trees[0].SetEntryList(intersect[0])
         trees[1].SetEntryList(intersect[1])
-        comparisonPlots(u_names, trees, titles, 'intersect.pdf', options.do_ratio)
+        if not all(l.GetN() == 0 for l in intersect):
+            comparisonPlots(u_names, trees, titles, 'intersect.pdf', options.do_ratio)
 
 
     if len(trees) == 2 and options.do_common:

@@ -1,4 +1,8 @@
 Latest NTuple
-/afs/cern.ch/user/f/fcostanz/public/Synch-Spring15/230715/SUSYGluGluToHToTauTau_M-160_et_Sync.root
+/afs/cern.ch/user/f/fcostanz/public/Synch-Spring15/290715/SUSYGluGluToHToTauTau_M-160_et_Sync.root
+
+30/07/2015: tau charge requiremet
+            corrected electron pt threshold and id
 
 23/07/2015 : initial synch NTuple for e tau channel (Spring15 MC)
+

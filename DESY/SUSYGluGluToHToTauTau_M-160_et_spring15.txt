@@ -1,5 +1,7 @@
 Latest NTuple
-/afs/cern.ch/user/f/fcostanz/public/Synch-Spring15/290715/SUSYGluGluToHToTauTau_M-160_et_Sync.root
+/afs/cern.ch/user/f/fcostanz/public/Synch-Spring15/310715/SUSYGluGluToHToTauTau_M-160_et_Sync.root
+
+31/07/2015: fixed jet selection
 
 30/07/2015: tau charge requiremet
             corrected electron pt threshold and id

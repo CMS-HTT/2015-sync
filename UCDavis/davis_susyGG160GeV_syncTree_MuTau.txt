@@ -1,0 +1,7 @@
+[August 4th]
+
+Ntuple Location : 
+
+/afs/cern.ch/user/s/sshalhou/public/RunIISync/Spring15_160GeV/Aug4/davis_syncTree_MuTau.root
+
+comments : 1st commit, reasonable looking sync (no SVMass yet)

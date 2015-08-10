@@ -1,3 +1,12 @@
+[Aug 10] 
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_Aug10_v1.root
+
+MET source changed to pftype one, (mt1, and mt2 still need to be changed.)
+
+Added 33 geV pt cut for single electron leg.
+
+
+
 [Aug 10] sync ntuple can be found
 /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_Aug10.root
 

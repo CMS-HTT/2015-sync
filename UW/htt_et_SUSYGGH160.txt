@@ -1,0 +1,6 @@
+[Aug 10] sync ntuple can be found
+/afs/cern.ch/user/l/ldodd/public/2012-sync/htt_et_SUSYGGH160_Aug10.root
+
+initial upload
+I still need to add a pt cut from my single electron trigger, which can be seen from the intersection plot. 
+Met paths need to be checked as well as mJJ, and the jet distributions. 

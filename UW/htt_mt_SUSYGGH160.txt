@@ -1,0 +1,7 @@
+[Aug 10] initial sync ntuple can be found
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_Aug10.root
+
+Need to check my met path, and add variables, and add svfit to the ntuple. I think I'm missing a trigger due to the large number of events I am missing from the intersection plot.
+
+
+

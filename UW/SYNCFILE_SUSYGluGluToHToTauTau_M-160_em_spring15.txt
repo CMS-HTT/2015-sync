@@ -1,5 +1,7 @@
 sync ntuple in
 /afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_spring15.root
 
+[13/08]
+ - Second iteration, iso closer, might have wrong dR, jet cleaning incorporated
 [07/08]
  - Adding first iteration of UW em sync Ntuple, visible issues with additional jet selections

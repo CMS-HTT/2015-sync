@@ -1,0 +1,5 @@
+sync ntuple in
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15.root
+
+[13/08]
+ - First iteration of UW tt '15, needs tau based yet cleaning.  Overall event rate is high.

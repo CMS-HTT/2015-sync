@@ -1,0 +1,20 @@
+[sync location]
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160.root
+
+MT1 and MT2 source changed to pftype 1
+dilepton, third lepton veto variable added
+
+
+[Aug 10] 
+MET source changed to pftype one, (mt1, and mt2 still need to be changed.)
+
+Added 33 geV pt cut for single electron leg.
+
+
+
+[Aug 10] sync ntuple can be found
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_Aug10.root
+
+initial upload
+I still need to add a pt cut from my single electron trigger, which can be seen from the intersection plot. 
+Met paths need to be checked as well as mJJ, and the jet distributions. 

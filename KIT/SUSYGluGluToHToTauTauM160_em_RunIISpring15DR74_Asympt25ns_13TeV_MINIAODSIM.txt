@@ -1,8 +1,11 @@
 Ntuple location:
 
-/afs/cern.ch/user/r/rcaspart/public/sync/29072015/SUSYGluGluToHToTauTauM160_em_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
+/afs/cern.ch/user/r/rcaspart/public/sync/07082015/SUSYGluGluToHToTauTauM160_em_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
 
 Log of changes:
+[07.08]
+- fixed bug in application of eta cuts
+- fixed pT threshold requirements for lepton firing higher pT Trigger leg in case two or more triggers fired
 [29.07]
 -fixed threshold for lepton firing the higher pT trigger leg
 [16.07]

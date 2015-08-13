@@ -1,0 +1,26 @@
+[sync ntuple location]
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160.root
+
+
+[Aug 11]
+
+Fixed event yields now have  40502.0
+Jet distributions and svFit to be updated in coming days.
+
+
+
+[Aug 11]
+
+changed MET, MT1, and MT2 paths to pftype 1
+added trilepton and dilepton vetos.
+
+About ~4000 events short in comparison with other groups.
+
+
+
+[Aug 10] initial sync ntuple can be found
+
+Need to check my met path, and add variables, and add svfit to the ntuple. I think I'm missing a trigger due to the large number of events I am missing from the intersection plot.
+
+
+

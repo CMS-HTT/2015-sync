@@ -1,6 +1,9 @@
 sync ntuple in
 /afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15.root
 
+[14/08]
+ - Fixed dZ
+
 [13/08]
  - Fixed Iso ordering of Taus
 

@@ -1,5 +1,7 @@
 Latest NTuple
-/afs/cern.ch/user/f/fcostanz/public/Synch-Spring15/310715/SUSYGluGluToHToTauTau_M-160_et_Sync.root
+/afs/cern.ch/user/f/fcostanz/public/Synch-Spring15/180815/SUSYGluGluToHToTauTau_M-160_et_Sync.root
+
+17/08/2015: fixed dilepton and extra lepton veto
 
 31/07/2015: fixed jet selection
 

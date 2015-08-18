@@ -1,6 +1,12 @@
 [sync location]
 /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160.root
 
+[Aug 18]
+
+Jet variables fixed.
+
+
+[Aug 11]
 MT1 and MT2 source changed to pftype 1
 dilepton, third lepton veto variable added
 

@@ -2,6 +2,11 @@
 /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160.root
 
 
+[Aug 18]
+Jet Distributions updated
+
+
+
 [Aug 11]
 
 Fixed event yields now have  40502.0

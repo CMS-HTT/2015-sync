@@ -3,3 +3,5 @@
 16 July: Original upload; does not contain MVA MET nor SVfit
 
 18 August: relaxed minimum isolation requirement 10. GeV ==> inf.
+
+19 August: ensured that both taus are properly trigger matched, removed taus with abs(charge) != 1

@@ -1,8 +1,11 @@
 Ntuple location:
 
-/afs/cern.ch/user/f/fcolombo/public/SUSYGluGluToHToTauTauM160_et_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20150821-withMVAMET/SUSYGluGluToHToTauTauM160_et_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
 
 Log of changes:
+[21.08]
+- MVA MET branches filled properly
+- First try with svFit (w/ MVA MET)
 [29.07]
 - Trigger matching strategy updated
 - Additional pT cuts implemented

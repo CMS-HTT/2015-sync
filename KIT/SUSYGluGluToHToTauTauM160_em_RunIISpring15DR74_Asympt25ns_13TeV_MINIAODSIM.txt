@@ -1,8 +1,11 @@
 Ntuple location:
 
-/afs/cern.ch/user/r/rcaspart/public/sync/07082015/SUSYGluGluToHToTauTauM160_em_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20150821-withMVAMET/SUSYGluGluToHToTauTauM160_em_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
 
 Log of changes:
+[21.08]
+- MVA MET branches filled properly
+- First try with svFit (w/ MVA MET)
 [07.08]
 - fixed bug in application of eta cuts
 - fixed pT threshold requirements for lepton firing higher pT Trigger leg in case two or more triggers fired

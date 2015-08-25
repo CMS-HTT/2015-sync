@@ -1,6 +1,9 @@
 sync ntuple in
 /afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_spring15.root
 
+[25/08]
+ - Removed ghost muon cleaning & made sure MVA Elec ID was functioning properly
+ - ~100% Sync, 1 extra evt over Brown and Imperial
 [13/08]
  - Second iteration, iso closer, might have wrong dR, jet cleaning incorporated
 [07/08]

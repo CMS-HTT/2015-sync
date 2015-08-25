@@ -1,8 +1,13 @@
 Ntuple location:
 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20150821-withMVAMET/SUSYGluGluToHToTauTauM160_tt_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20150825-spring15eleIDs/SUSYGluGluToHToTauTauM160_tt_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
 
 Log of changes:
+[25.08]
+- Spring15 electron IDs (cut-based and non-triggering MVA) used instead of the
+  Phys14 ones
+  see: https://twiki.cern.ch/twiki/bin/view/CMS/CutBasedElectronIdentificationRun2#Recipe_for_regular_users_for_747
+       https://twiki.cern.ch/twiki/bin/view/CMS/MultivariateElectronIdentificationRun2#Recipes_for_747_Spring15_MVA_tra
 [21.08]
 - MVA MET branches filled properly
 - First try with svFit (w/ MVA MET)

@@ -1,6 +1,10 @@
 sync ntuple in
 /afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15.root
 
+[28/08]
+ - Fixed a preselection cut which required decayModeFinding
+ - 100% sync with Brown and Imperial on run, lumi, evt, and selection of taus
+
 [14/08]
  - Fixed dZ
 

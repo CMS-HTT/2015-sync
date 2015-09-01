@@ -1,5 +1,5 @@
 [File]
-/afs/cern.ch/user/d/davignon/public/Sync_HTT_2015/syncNtuple_mt_GGH160.root
+/afs/cern.ch/user/d/davignon/public/Sync_HTT_2015/syncNtuple_tt_GGH160.root
 
 [Latest changes]
 31/08/2015:

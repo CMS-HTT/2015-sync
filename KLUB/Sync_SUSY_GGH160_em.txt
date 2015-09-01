@@ -1,3 +1,5 @@
+KLUB is: LLR, UC Davis, Brussels, TIFR, Kansas State, Warsaw.
+
 [File]
 /afs/cern.ch/user/d/davignon/public/Sync_HTT_2015/syncNtuple_em_GGH160.root
 

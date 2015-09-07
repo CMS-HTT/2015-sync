@@ -1,8 +1,11 @@
 sync ntuple in
-/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15_2.root
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15_v2.root
 
 [7/09]
- - Updated electron MVA/CB IDs
+ - changed src leptons for mvamet to slimmedXXX
+
+[7/09]
+ - Updated electron MVA/CB ID
 
 [28/08]
  - Fixed a preselection cut which required decayModeFinding

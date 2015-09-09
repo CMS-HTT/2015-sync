@@ -1,8 +1,10 @@
 Ntuple location:
 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20150825-spring15eleIDs/SUSYGluGluToHToTauTauM160_mt_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20150908/SUSYGluGluToHToTauTauM160_mt_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
 
 Log of changes:
+[08.09]
+- Fix in jets used for MVA MET calculation
 [25.08]
 - Spring15 electron IDs (cut-based and non-triggering MVA) used instead of the
   Phys14 ones

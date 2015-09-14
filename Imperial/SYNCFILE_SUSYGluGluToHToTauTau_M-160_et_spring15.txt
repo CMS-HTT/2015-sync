@@ -1,6 +1,8 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-110915/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_spring15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-140915/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_spring15.root
 
+[14/09]
+ - Added svfit
 [11/09]
  - Use JECs from Summer15_V5_MC for mvamet
 [28/08]

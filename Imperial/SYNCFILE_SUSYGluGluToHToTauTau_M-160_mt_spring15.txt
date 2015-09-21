@@ -1,6 +1,8 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-140915/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_spring15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-210915/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_spring15.root
 
+[21/09]
+ - Added lepton mc information (mc_origin_1, mc_origin_2)
 [14/09]
  - Added svfit
 [11/09]

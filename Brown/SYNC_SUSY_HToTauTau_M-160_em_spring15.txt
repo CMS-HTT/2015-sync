@@ -1,7 +1,24 @@
 File location:
-/afs/cern.ch/user/z/zmao/public/2015-sync/SYNC_SUSY_HToTauTau_M-160_em_spring15_v3.root
+/afs/cern.ch/user/z/zmao/public/2015-sync/SYNC_SUSY_HToTauTau_M-160_em_spring15_v4.root
 
 Updates:
+
+Sep 21:
+- add MC truth info for splitting with the following names
+
+cat   type     	    	name
+1     Prompt		isPromptElectron_1/2
+      Electron
+
+2     Prompt		isPromptMuon_1/2
+      Muon
+
+3     tau->e		isTau2Electron_1/2
+
+4     tau->muon		isTau2Muon_1/2
+
+5     tauh		isTauh_1/2
+
 
 Sep 4:
 - update Spring15 electron MVA/CutBased ID

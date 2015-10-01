@@ -1,5 +1,8 @@
 Latest sync ntuple in:
 /afs/cern.ch/work/f/fbrivio/public/Sync2015/SUSYGluGluToHToTauTau_M-160_mt_spring15.root
 
+[1/1072015]
+- Fixed Trigger paths
+
 [24/9/2015]
 - First version of spring15 sync ntuple

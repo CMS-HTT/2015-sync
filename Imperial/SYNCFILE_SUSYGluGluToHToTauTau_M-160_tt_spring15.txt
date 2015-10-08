@@ -1,6 +1,8 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-210915/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-081015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15.root
 
+[08/10]
+ - Fixing mvamet + using JECs from gt 74X_mcRun2_asymptotic_v2 for mvamet
 [21/09]
  - Added lepton mc information (mc_origin_1,mc_origin_2)
 [14/09]

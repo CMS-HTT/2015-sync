@@ -1,6 +1,8 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-081015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_spring15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-091015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_spring15.root
 
+[09/10]
+ - Using latest PFJetID
 [08/10]
  - Fixing mvamet + using JECs from gt 74X_mcRun2_asymptotic_v2 for mvamet
 [21/09]

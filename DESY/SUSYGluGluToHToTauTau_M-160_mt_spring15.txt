@@ -1,5 +1,11 @@
 Latest NTuple
-/afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_mt_DESY.root  
+/afs/cern.ch/user/f/fcostanz/public/Synch-Spring15/111015/SUSYGluGluToHToTauTau_M-160_mt_Sync.root
+
+11/10/2015: fixed JEC
+            updated PF JetID
+            fixed PV selection
+            pairwise MVA MET added
+            updated electron id
 
 22/07/2015 : 1) cut is raised on pt of muon firing HLT_IsoMu24 trigger but not
                 muon leg of the muon-tau cross trigger (pt > 25 GeV)

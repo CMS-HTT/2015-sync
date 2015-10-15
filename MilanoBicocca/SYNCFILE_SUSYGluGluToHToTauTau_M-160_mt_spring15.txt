@@ -1,5 +1,11 @@
-Latest sync ntuple in:
+Version1 syncNtuple:
 /afs/cern.ch/work/f/fbrivio/public/Sync2015/SUSYGluGluToHToTauTau_M-160_mt_spring15.root
+
+miniAODv2 syncNtuple (05October2015):
+/afs/cern.ch/work/f/fbrivio/public/Sync2015/SUSYGluGluToHToTauTau_M-160_mt_spring15_miniAODv2.root
+
+[15/10/2015]
+- First syncNtuple from miniAODv2, no mvaMET, no SVFit
 
 [12/10/2015]
 - Added SVFit

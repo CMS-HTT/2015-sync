@@ -1,0 +1,5 @@
+sync ntuple in
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-211015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_spring15_miniAODv2.root
+
+[21/10]
+ - First version of sync ntuple from miniAODv2 sample, SVFit missing

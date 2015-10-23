@@ -1,0 +1,34 @@
+
+
+Spring 15, miniAOD v2
+sync ntuple in:
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_em_miniAODv2.root
+[23/10]
+ - First iteration of miniAODv2, needs mvamet & svFit
+
+
+
+
+
+Spring 15, run I
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15_v2.root
+
+[7/09]
+ - changed src leptons for mvamet to slimmedXXX
+
+[7/09]
+ - Updated electron MVA/CB ID
+
+[28/08]
+ - Fixed a preselection cut which required decayModeFinding
+ - 100% sync with Brown and Imperial on run, lumi, evt, and selection of taus
+
+[14/08]
+ - Fixed dZ
+
+[13/08]
+ - Fixed Iso ordering of Taus
+
+[13/08]
+ - NOTE: NTuple builder PT ordered Taus and threw out other config.  Will resubit in a few hours hopefully.
+ - First iteration of UW tt '15, needs tau based yet cleaning.  Overall event rate is high.

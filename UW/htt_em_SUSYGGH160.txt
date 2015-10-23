@@ -1,0 +1,27 @@
+
+
+
+Spring 15, miniAOD v2
+sync ntuple in:
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_em_miniAODv2.root
+[23/10]
+ - First iteration of miniAODv2, needs mvamet & svFit
+
+
+
+
+
+Spring 15, run I
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_spring15_v2.root
+
+[7/09]
+ - changed src leptons for mvamet to slimmedXXX
+[7/09]
+ - Updated electron MVA/CB IDs
+[25/08]
+ - Removed ghost muon cleaning & made sure MVA Elec ID was functioning properly
+ - ~100% Sync, 1 extra evt over Brown and Imperial
+[13/08]
+ - Second iteration, iso closer, might have wrong dR, jet cleaning incorporated
+[07/08]
+ - Adding first iteration of UW em sync Ntuple, visible issues with additional jet selections

@@ -1,8 +1,10 @@
 Ntuple location:
 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20151022-miniAODv2/SUSYGluGluToHToTauTauM160_em_RunIISpring15MiniAODv2_13TeV_MINIAOD.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20151026-miniAODv2/SUSYGluGluToHToTauTauM160_em_RunIISpring15MiniAODv2_13TeV_MINIAOD.root
 
 Log of changes:
+[26.10]
+- Additional pT cut on HLT objects (ET/MT channels)
 [22.10]
 - HLT paths and e/mu pT cuts updated (ET/MT channels). No additional pT cut on HLT object yet
 [15.10]

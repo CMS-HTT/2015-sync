@@ -1,3 +1,4 @@
 /afs/cern.ch/user/s/steggema/public/Sync2015/et/SUSYGluGluToHToTauTau_M-160_miniAODv2.root
 
+# 26 October: Add trigger object pT cut; update	b-tag WP
 # 22 October: Initial upload; trigger object pT cut + a few minor details to be implemented

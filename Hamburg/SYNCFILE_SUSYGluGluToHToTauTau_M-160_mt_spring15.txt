@@ -1,6 +1,9 @@
 sync ntuple in
 /afs/desy.de/user/m/maltehof/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_spring15.root
 
-[23/07]
+[28.10]
+ - New Trigger with Pt>18 cut on Trigger object
+ - Increased Pt Cut of muon-Id to Pt>19 GeV
+[23.07]
  - First commit, up-to-date to current Twiki Description. npu branch not filled atm
    Jet variables that are 'not filled' are set to 99999

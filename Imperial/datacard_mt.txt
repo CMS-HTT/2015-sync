@@ -1,0 +1,5 @@
+datacard in 
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-281015/htt_mt.inputs-sm-13TeV-mvis.root
+
+[28/10]
+ - Initial commit of mt datacard for dc sync

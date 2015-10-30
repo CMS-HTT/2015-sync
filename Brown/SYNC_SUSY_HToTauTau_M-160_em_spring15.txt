@@ -7,6 +7,8 @@ Oct 30:
 - update to miniAODv2
 - update to latest jetID
 - new triggers for etau/mutau
+- update to latest btag WP
+- update b jets naming and pt sorting order
 
 Sep 23:
 - update to Adinda's proposal with gen_match_1 and gen_match_2 branches

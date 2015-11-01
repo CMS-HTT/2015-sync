@@ -2,9 +2,11 @@
 
 Spring 15, miniAOD v2
 sync ntuple in:
-/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_em_miniAODv2.root
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_tt_miniAODv2.root
 [23/10]
  - First iteration of miniAODv2, needs mvamet & svFit
+[1/11]
+ - Added mvamet, svFit and gen Pdg IDs
 
 
 

@@ -1,3 +1,5 @@
-/afs/cern.ch/user/s/steggema/public/Sync2015/em/SUSYGluGluToHToTauTau_M-160_miniAODv2.root
+/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_spring15_miniAODv2.root
 
+
+# 3 November: updated extra electron veto
 # 28 October: Initial upload (no MVA MET/SVFit)

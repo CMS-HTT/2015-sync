@@ -1,0 +1,8 @@
+miniAODv2 syncNtuple (05October2015):
+/afs/cern.ch/work/f/fbrivio/public/Sync2015/SUSYGluGluToHToTauTau_M-160_mt_spring15_miniAODv2.root
+
+[04/11/2015]
+- removed letpon+tau trigger, muon pt>19, 18 GeV cut to muon trigger objects
+
+[15/10/2015]
+- First syncNtuple from miniAODv2, no mvaMET, no SVFit

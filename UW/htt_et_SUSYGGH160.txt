@@ -1,5 +1,14 @@
 [sync location]
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_miniAODv2.root
+
+
 /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160.root
+deprecated^
+
+[Nov 4]
+Added miniAODv2 starting place. 
+Cut on trigger pt needs to be added, jet ids need to be updated
+
 
 [Aug 18]
 

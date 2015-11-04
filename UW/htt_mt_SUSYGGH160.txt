@@ -1,5 +1,16 @@
 [sync ntuple location]
+
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2.root
+
 /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160.root
+deprecated^ (miniAODv1)
+
+[Nov 4]
+
+Starting place for miniAODv2.
+
+Trigger Pt cuts on electrons needs to be added, jet ids need to be updated.
+
 
 
 [Aug 18]

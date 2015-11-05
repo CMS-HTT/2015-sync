@@ -2,8 +2,14 @@
 
 /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2.root
 
-/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160.root
-deprecated^ (miniAODv1)
+
+[Nov 5]
+
+Trigger Pt cuts Added 
+Jet IDs updated
+No SVFit and no MVAMET yet.
+
+
 
 [Nov 4]
 

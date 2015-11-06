@@ -2,6 +2,4 @@ datacard in
 /afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-061115/htt_mt.inputs-sm-13TeV-mvis.root
 
 [06/11]
- - Updating to samples announced in 06/11 sync e-mail
-[28/10]
- - Initial commit of mt datacard for dc sync
+ - Initial commit of tt datacard for dc sync, using samples detailed in 06/11 sync update e-mail

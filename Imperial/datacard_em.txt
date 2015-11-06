@@ -1,0 +1,5 @@
+datacard in 
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-061115/htt_em.inputs-sm-13TeV-mvis.root
+
+[06/11]
+ - Initial commit of em datacard for dc sync, using old triggers but new samples from 06/11 sync e-mail

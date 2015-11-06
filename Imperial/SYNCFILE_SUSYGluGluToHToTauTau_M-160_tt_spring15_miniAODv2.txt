@@ -1,6 +1,8 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-031115/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15_miniAODv2.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-061115/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15_miniAODv2.root
 
+[06/11]
+ - Changing gen matching cone size
 [03/11]
  - Changing btag WP, adding SVFit
 [21/10]

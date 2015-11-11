@@ -1,8 +1,10 @@
 Ntuple location:
 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20151026-miniAODv2/SUSYGluGluToHToTauTauM160_em_RunIISpring15MiniAODv2_13TeV_MINIAOD.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20151111-miniAODv2/SUSYGluGluToHToTauTauM160_em_RunIISpring15MiniAODv2_13TeV_MINIAOD.root
 
 Log of changes:
+[11.11]
+- Lower threshold triggers in EM channel
 [26.10]
 - Additional pT cut on HLT objects (ET/MT channels)
 [22.10]

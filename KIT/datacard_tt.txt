@@ -1,0 +1,6 @@
+datacard in 
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20151115-miniAODv2/htt_tt.inputs-sm-13TeV-mvis.root
+
+[15/11]
+- Initial commit. Sync status as of 11/11, with the corresponding prescriptions.
+  Known differences: NLO DY sample, DY splitting in ZL+ZJ not done using the generator flags, gen/reco matching cone is still 0.5

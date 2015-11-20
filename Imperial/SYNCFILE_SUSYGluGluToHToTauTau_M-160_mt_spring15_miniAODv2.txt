@@ -1,6 +1,8 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-061115/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_spring15_miniAODv2.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-201115/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_spring15_miniAODv2.root
 
+[20/11]
+ - Small change in definition of gen level tau jets
 [06/11]
  - Changing gen matching cone size
 [03/11]

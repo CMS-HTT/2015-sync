@@ -1,5 +1,8 @@
-/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_spring15_miniAODv2.root
+/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_spring15_miniAODv2_20151123.root
 
+# 23 Nov : updated trigger (and correspondingly, leading lepton pT threshold from 24 -> 18)
 
 # 3 November: updated extra electron veto
+/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_spring15_miniAODv2.root
+
 # 28 October: Initial upload (no MVA MET/SVFit)

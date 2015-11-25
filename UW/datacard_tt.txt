@@ -1,0 +1,5 @@
+datacard location:
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/dataCards2015/htt_tt.inputs-sm-13TeV.root
+
+[25/11]
+ - Initial commit, 2.11 / fb; NOT using newest Isolation proposed by Jan on Nov 23, no generator flags yet, ZTT = all DYJets

@@ -1,0 +1,5 @@
+datacard location:
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/dataCards2015/htt_em.inputs-sm-13TeV.root
+
+[25/11]
+ - Initial commit, 2.11 / fb, no generator flags yet, ZTT = all DYJets

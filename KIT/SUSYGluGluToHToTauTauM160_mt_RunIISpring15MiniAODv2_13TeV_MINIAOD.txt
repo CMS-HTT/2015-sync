@@ -1,8 +1,10 @@
 Ntuple location:
 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20151111-miniAODv2/SUSYGluGluToHToTauTauM160_mt_RunIISpring15MiniAODv2_13TeV_MINIAOD.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20151126-miniAODv2/SUSYGluGluToHToTauTauM160_mt_RunIISpring15MiniAODv2_13TeV_MINIAOD.root
 
 Log of changes:
+[26.11]
+- MC matching flags added, matching cone 0.2
 [11.11]
 - Lower threshold triggers in EM channel
 [26.10]

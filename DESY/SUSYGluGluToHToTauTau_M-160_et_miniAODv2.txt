@@ -1,0 +1,4 @@
+Latest NTuple
+/afs/cern.ch/user/f/fcostanz/public/Synch-MiniAODv2/271115/SUSYGluGluToHToTauTau_M-160_et_Sync.root
+
+27/11/2015: first commit for MiniAODv2

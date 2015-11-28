@@ -1,10 +1,14 @@
 datacard in 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20151126-miniAODv2/htt_mt.inputs-sm-13TeV-mvis.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20151128-miniAODv2/htt_mt.inputs-sm-13TeV-mvis.root
 
+[28/11]
+- Run 2015D only
+- Tau isolation using the medium WP
+- Added category excluding two prong taus and using mt_1<40
 [26/11]
 - Splitting of DY sample using MC matching flags, PU-reweighting of the events switched off
 [25/11]
-- Same as 22.11 status, using the full 2.11 /fb golden JSON (includes all 25 ns runs: 2015C + 2015D)
+- Same as 22.11 status, using the full 2.11 /fb golden JSON (only 2015D)
 [22/11]
 - 1.28 /fb golden JSON
   Gen/reco matching cone 0.2; all used samples according to the prescriptions of the working TWiki.

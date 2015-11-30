@@ -1,0 +1,6 @@
+datacards et channel :
+w/o PU reweighting    : /afs/cern.ch/user/f/fcostanz/public/Synch-MiniAODv2/301115/htt_et.inputs-sm-13TeV-mvis.root
+
+[30/11/2015]
+Run2015D, 2.094 fb-1
+et_inclusive only

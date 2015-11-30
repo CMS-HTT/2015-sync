@@ -1,5 +1,6 @@
 datacard in 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20151128-miniAODv2/htt_et.inputs-sm-13TeV-mvis.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20151128-miniAODv2/htt_et.inputs-sm-13TeV-mvis.root (w/o PU-reweighting)
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20151128-miniAODv2-wPU/htt_et.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
 
 [28/11]
 - Run 2015D only

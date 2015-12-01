@@ -1,0 +1,6 @@
+datacards mt channel :
+with PU reweighting    : /afs/cern.ch/user/r/rasp/public/Synch-Spring15/htt_mt.inputs-sm-13TeV-mvis.root 
+without PU reweighting : /afs/cern.ch/user/r/rasp/public/Synch-Spring15/htt_mt.inputs-sm-13TeV-mvis_noPU.root
+
+[1/12/2015]
+Only mt_inclusive event category at the moment.

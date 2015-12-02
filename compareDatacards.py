@@ -2,6 +2,7 @@ import sys
 import fnmatch
 
 import ROOT
+ROOT.PyConfig.IgnoreCommandLineOptions = True
 from optparse import OptionParser
 
 from varCfg import category_dict

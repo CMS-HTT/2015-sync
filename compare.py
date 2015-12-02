@@ -2,6 +2,7 @@ import sys
 import numpy as np
 
 import ROOT
+ROOT.PyConfig.IgnoreCommandLineOptions = True
 from optparse import OptionParser
 
 from varCfg import var_dict

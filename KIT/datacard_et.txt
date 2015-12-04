@@ -1,7 +1,9 @@
 datacard in 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20151128-miniAODv2/htt_et.inputs-sm-13TeV-mvis.root (w/o PU-reweighting)
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20151128-miniAODv2-wPU/htt_et.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20151204-miniAODv2/htt_et.inputs-sm-13TeV-mvis.root (w/o PU-reweighting)
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20151204-miniAODv2-wPU/htt_et.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
 
+[04/12]
+- Fix in Single Top xsec value
 [28/11]
 - Run 2015D only
 - Tau isolation using the medium WP

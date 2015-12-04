@@ -1,8 +1,11 @@
 Ntuple location:
 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20151126-miniAODv2/SUSYGluGluToHToTauTauM160_mt_RunIISpring15MiniAODv2_13TeV_MINIAOD.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20151204-miniAODv2/SUSYGluGluToHToTauTauM160_mt_RunIISpring15MiniAODv2_13TeV_MINIAOD.root
 
 Log of changes:
+[04.12]
+- Fix in b-tag WP
+- PU weight branch filled
 [26.11]
 - MC matching flags added, matching cone 0.2
 [11.11]

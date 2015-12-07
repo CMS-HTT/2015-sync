@@ -2,5 +2,11 @@ datacards mt channel :
 with PU reweighting    : /afs/cern.ch/user/r/rasp/public/Synch-Spring15/htt_mt.inputs-sm-13TeV-mvis.root 
 without PU reweighting : /afs/cern.ch/user/r/rasp/public/Synch-Spring15/htt_mt.inputs-sm-13TeV-mvis_noPU.root
 
+[7/12/205]
+Corrected XS for the single top t-channel 
+MC samples. Added event category with 
+mt<40 and no two prong taus (mt is computed
+with type 1 PF MET)
+
 [1/12/2015]
 Only mt_inclusive event category at the moment.

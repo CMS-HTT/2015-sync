@@ -1,6 +1,10 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-201115/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_spring15_miniAODv2.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-071215/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_spring15_miniAODv2.root
 
+[07/12]
+ - Removing final state requirement for gen muons
+ - Adding puppi met
+ - Adding PU weights
 [20/11]
  - Small change in definition of gen level tau jets
 [06/11]

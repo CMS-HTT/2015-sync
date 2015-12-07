@@ -1,6 +1,10 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-091115/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_spring15_miniAODv2.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-071215/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_spring15_miniAODv2.root
 
+[07/12]
+ - Removing final state requirement for gen muons
+ - Adding puppi met
+ - Adding PU weights
 [09/11]
  - Correcting em channel pT cut
 [06/11]

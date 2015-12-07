@@ -1,5 +1,8 @@
 datacards et channel :
-w/o PU reweighting    : /afs/cern.ch/user/f/fcostanz/public/Synch-MiniAODv2/301115/htt_et.inputs-sm-13TeV-mvis.root
+w/o PU reweighting    : /afs/cern.ch/user/f/fcostanz/public/Synch-MiniAODv2/071215/htt_et.inputs-sm-13TeV-mvis.root
+
+[07/12/2015]
+correct xs for single top leptonic decay samples
 
 [30/11/2015]
 Run2015D, 2.094 fb-1

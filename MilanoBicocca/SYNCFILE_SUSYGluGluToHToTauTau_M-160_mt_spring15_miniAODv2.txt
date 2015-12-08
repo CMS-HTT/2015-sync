@@ -1,4 +1,4 @@
-miniAODv2 syncNtuple (05October2015):
+miniAODv2 syncNtuple:
 /afs/cern.ch/work/f/fbrivio/public/Sync2015/SUSYGluGluToHToTauTau_M-160_mt_spring15_miniAODv2.root
 
 [22/11/2015]

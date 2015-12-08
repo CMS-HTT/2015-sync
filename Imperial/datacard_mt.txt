@@ -1,9 +1,11 @@
 datacard in 
 /afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-011215/htt_mt.inputs-sm-13TeV-mvis.root (w/o PU reweighting)
-/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-011215-PU/htt_mt.inputs-sm-13TeV-mvis.root (w/ PU reweighting)
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-081215/htt_mt.inputs-sm-13TeV-mvis.root (w/ PU reweighting)
 /afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-011215-pfmet-NoPU/htt_mt.inputs-sm-13TeV-mvis.root (w/o PU reweighting, mt cut using pfmet)
 /afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-011215-pfmet-PU/htt_mt.inputs-sm-13TeV-mvis.root (w/PU reweighting, mt cut using pfmet)
 
+[08/12]
+ - Changing muon status flag
 [01/12]
  - Correcting XS scaling of t-channel single top samples
 [28/11]

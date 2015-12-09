@@ -1,4 +1,6 @@
 Latest NTuple
-/afs/cern.ch/user/f/fcostanz/public/Synch-MiniAODv2/271115/SUSYGluGluToHToTauTau_M-160_et_Sync.root
+/afs/cern.ch/user/f/fcostanz/public/Synch-MiniAODv2/091215/SUSYGluGluToHToTauTau_M-160_et_Sync.root
 
+09/12/2015: synchronization of mva met
+	    added pfmet, puppimet, and mva met related quantities
 27/11/2015: first commit for MiniAODv2

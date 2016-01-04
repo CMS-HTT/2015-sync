@@ -3,6 +3,9 @@ File location:
 
 Updates:
 
+Jan 4:
+- update trigger and tau iso working points
+
 Oct 30:
 - update to miniAODv2
 - update to latest jetID

@@ -1,0 +1,8 @@
+datacards tt channel :
+w/o PU reweighting    : /afs/cern.ch/work/a/anayak/public/HTauTau/datacardSync/miniAODv2_12012016_woPU/htt_tt.inputs-sm-13TeV-mvis.root
+w PU reweighting      : /afs/cern.ch/work/a/anayak/public/HTauTau/datacardSync/miniAODv2_12012016_wPU/htt_tt.inputs-sm-13TeV-mvis.root
+
+[12/01/2016]
+Run2015D, both tt_inclusive and et_boostedZ categories.
+Used Inclusive Z+jets and W+jets MC samples.
+Implemented all other recommendations so far. 

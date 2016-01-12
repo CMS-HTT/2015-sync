@@ -1,7 +1,10 @@
 datacard in 
 /afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-011215/htt_tt.inputs-sm-13TeV-mvis.root (w/o PU reweighting)
 /afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-081215/htt_tt.inputs-sm-13TeV-mvis.root (w/ PU reweighting)
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-110116/htt_tt.inputs-sm-13TeV-mvis.root (w/ PU reweighting and ht-binned samples)
 
+[11/01]
+ - Adding HT-binned samples for DY and W+Jets
 [08/12]
  - Changing muon status flag
 [01/12]

@@ -1,4 +1,12 @@
 datacards tt channel :
+
+w/o PU reweighting    : /afs/cern.ch/work/a/anayak/public/HTauTau/datacardSync/miniAODv2_13012016_woPU/htt_tt.inputs-sm-13TeV-mvis.root
+w PU reweighting      : /afs/cern.ch/work/a/anayak/public/HTauTau/datacardSync/miniAODv2_13012016_wPU/htt_tt.inputs-sm-13TeV-mvis.root
+
+[13/01/2016]
+Fixed normalization issue for W+jets and TTbar events
+
+
 w/o PU reweighting    : /afs/cern.ch/work/a/anayak/public/HTauTau/datacardSync/miniAODv2_12012016_woPU/htt_tt.inputs-sm-13TeV-mvis.root
 w PU reweighting      : /afs/cern.ch/work/a/anayak/public/HTauTau/datacardSync/miniAODv2_12012016_wPU/htt_tt.inputs-sm-13TeV-mvis.root
 

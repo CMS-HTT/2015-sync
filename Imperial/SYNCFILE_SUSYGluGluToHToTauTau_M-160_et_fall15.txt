@@ -1,0 +1,5 @@
+sync ntuple in
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-260116/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_fall15.root
+
+[26/01]
+ - First version of fall15 sync ntuple, SVFit missing

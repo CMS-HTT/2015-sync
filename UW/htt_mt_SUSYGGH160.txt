@@ -1,6 +1,15 @@
 [sync ntuple location]
+#76X Fall 15 ntuples
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2_fall15.root
 
-/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2.root
+#74X
+#/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2.root
+
+[Jan27]
+Preliminary sync ntuple upload
+No SVFit, no MVAMet in this upload.
+
+
 
 
 [Nov 5]

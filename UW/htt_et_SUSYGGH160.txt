@@ -1,5 +1,13 @@
 [sync location]
-/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_miniAODv2.root
+#Fall15 76X 
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_miniAODv2_fall15.root
+
+#74X
+#/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_miniAODv2.root
+[Jan27]
+Preliminary sync ntuple upload
+No SVFit, no MVAMet in this upload.
+
 
 
 [Nov 5]

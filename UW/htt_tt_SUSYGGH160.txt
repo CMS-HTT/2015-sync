@@ -7,6 +7,9 @@ Fall 15, miniAOD v2
 [25/1]
  - First round of 76x samples, need svFit and gen_mathching
 
+[01/02]
+ - non-pairwise mvamet, mt_total, pt_tt, idisoweight, 76x puweights, trigger weights
+
 
 
 Spring 15, miniAOD v2

@@ -8,6 +8,9 @@
 #74X
 #/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2.root
 
+[Feb 2]
+Update MVA Sorting
+
 [Feb 2] 
 Sort by byIsolationMVArun2v1DBnewDMwLTraw
 Added MVAMET, No svfit

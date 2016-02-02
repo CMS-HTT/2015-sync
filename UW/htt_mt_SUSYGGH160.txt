@@ -1,9 +1,16 @@
 [sync ntuple location]
+#Sorting my MVA Iso
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2_fall15_MVASort.root 
+
 #76X Fall 15 ntuples
 /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2_fall15.root
 
 #74X
 #/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2.root
+
+[Feb 2] 
+Sort by byIsolationMVArun2v1DBnewDMwLTraw
+Added MVAMET, No svfit
 
 [Jan27]
 Preliminary sync ntuple upload

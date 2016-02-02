@@ -1,3 +1,4 @@
-/afs/cern.ch/user/s/steggema/public/Sync2015/tt/SUSYGluGluToHToTauTau_M-160_fall15.root
+/afs/cern.ch/user/s/steggema/public/Sync2015/tt/SUSYGluGluToHToTauTau_M-160_fall15_2.root
 
+# 2 February: New pair choice
 # 27 January: Initial commit

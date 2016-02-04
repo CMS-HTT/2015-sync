@@ -2,7 +2,7 @@ datacard location:
     current: /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt.inputs-mssm-13TeV.root
 
 [Feb 4]
- - Initial commit, 2.2246 / fb, generator splitting not perfect yet.  
+ - Initial commit, 2.246 / fb, generator splitting not perfect yet.  
 No trig weight, no id weight,  no puweight
 Sorting by RAwCombinedIso
 

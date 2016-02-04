@@ -1,6 +1,10 @@
 datacard in
-/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-010216/htt_mt.inputs-sm-13TeV-mvis.root
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-040216/htt_mt.inputs-sm-13TeV-mvis.root (w/ PU weights)
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-040216-NoPU/htt_mt.inputs-sm-13TeV-mvis.root (w/o PU weights)
 
+[04/02]
+ - Adding t-channel tbar sample + small amount of missing data
+ - Updating pair sorting to use mva tau isolation
 [01/02]
  - Initial commit. Includes PU weights, no other scale factors. Pair sorting using dbeta corr iso.
     DY from LO DYJetsToLL_M-50, W+Jets from aMC@NLO, t-channel tbar, VVTo2L2Nu,

@@ -1,0 +1,5 @@
+/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_fall15.root
+
+160204:
+first commit of fall15 sync
+w/o svfit mass 

@@ -1,3 +1,4 @@
-/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_fall15_v1.root
+/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_fall15_v2.root
 
-# 4 Dec: Initial upload (no MVA MET/SVFit)
+# 5 Feb: Fixed trigger matching issue
+# 4 Feb: Initial upload (no MVA MET/SVFit)

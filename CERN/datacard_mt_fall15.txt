@@ -1,0 +1,4 @@
+/afs/cern.ch/user/s/steggema/public/Sync2015/mt/htt_mt.inputs-sm-13TeV-mvis-puweight.root
+/afs/cern.ch/user/s/steggema/public/Sync2015/mt/htt_mt.inputs-sm-13TeV-mvis-nopuweight.root
+
+# 08/02: Initial upload (known issue with DY splitting; not all EWK samples)

@@ -1,6 +1,8 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-270116/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_fall15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-100216/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_fall15.root
 
+[10/02]
+ - Fixing idiso weights
 [27/01]
  - Adding some missing branches
  - Adding SVFit

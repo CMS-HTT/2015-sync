@@ -1,5 +1,6 @@
-/afs/cern.ch/user/s/steggema/public/Sync2015/tt/SUSYGluGluToHToTauTau_M-160_fall15_3.root
+/afs/cern.ch/user/s/steggema/public/Sync2015/tt/SUSYGluGluToHToTauTau_M-160_fall15_4.root
 
+# 9 February: Add L1 matching for data trigger issue
 # 4 Feburary: Fixed sorting/trigger matching
 # 2 February: New pair choice
 # 27 January: Initial commit

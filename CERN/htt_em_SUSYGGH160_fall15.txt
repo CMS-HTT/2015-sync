@@ -1,5 +1,6 @@
-/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_fall15_v3.root
+/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_fall15_v4.root
 
+# 10 Feb: add MVA met
 # 6 Feb: Fixed trigweight_1, idisoweight_1 variable
 # 5 Feb: Fixed trigger matching issue
 # 4 Feb: Initial upload (no MVA MET/SVFit)

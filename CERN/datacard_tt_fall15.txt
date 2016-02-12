@@ -1,0 +1,4 @@
+/afs/cern.ch/user/s/steggema/public/Sync2015/tt/htt_mt.inputs-sm-13TeV-mvis-puweight.root
+/afs/cern.ch/user/s/steggema/public/Sync2015/tt/htt_mt.inputs-sm-13TeV-mvis-nopuweight.root
+
+# 12/02: Includes L1Iso matching for simulated samples. For the moment no t-channel and diboson samples.

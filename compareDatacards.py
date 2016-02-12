@@ -25,6 +25,8 @@ def applyHistStyle(h, i):
     h.SetLineColor(colours[i])
     h.SetLineStyle(styles[i])
     h.SetLineWidth(3)
+    h.SetFillColor(0)
+    h.SetMarkerSize(0)
     h.SetStats(False)
 
 

@@ -1,6 +1,9 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-030216/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-120216/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15.root
 
+[12/02]
+ - Updating pair sorting
+ - Dropping new tau DMs
 [03/02]
  - Updating pair sorting
 

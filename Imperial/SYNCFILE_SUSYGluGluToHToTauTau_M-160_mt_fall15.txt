@@ -1,5 +1,10 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-120216/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-150216/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15.root
+
+[15/02]
+ - Adding SVFit
+ - Adding raw MVAoldDM isolation as iso_2
+ - Adding mva_olddm_tight_2 and mva_olddm_vtight_2
 
 [12/02]
  - Updating pair sorting

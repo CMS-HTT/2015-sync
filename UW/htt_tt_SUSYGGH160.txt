@@ -13,6 +13,10 @@ Fall 15, miniAOD v2
 [12/02]
  - pairwise mvamet 100% synced, gen_matching synced, only svFit missing
 
+[16/02]
+ - svFit added using git checkout dd7cf43e3f930040959f7d700cef976307d7cec3
+ - currently svFit is ordering taus by isolation not pt as is recommeneded
+
 
 
 Spring 15, miniAOD v2

@@ -1,5 +1,9 @@
 datacard in
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-160216/htt_et.inputs-sm-13TeV-mvis.root (w/ PU weights, N-jet binned DY samples)
 /afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-150216/htt_et.inputs-sm-13TeV-mvis.root (w/ PU weights)
+
+[16/02]
+ - Adding n-jet binned DY samples
 
 [15/02]
  - Completely dropping new tau DMs

@@ -1,4 +1,4 @@
-/afs/cern.ch/user/s/steggema/public/Sync2015/tt/SUSYGluGluToHToTauTau_M-160_fall15_5.root
+/afs/cern.ch/user/s/steggema/public/Sync2015/tt/SUSYGluGluToHToTauTau_M-160_fall15_6.root
 
 # 17 February: Fix leg sorting, don't allow 2 matches to 1 L1 object
 # 16 February: Remove old DMs, new sorting

@@ -1,5 +1,7 @@
-/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15.root
+/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15_v2.root
 
+160116:
+new tauId selection, adding trigger and IdIso weights
 160204:
 first commit of fall15 sync
 w/o svfit mass 

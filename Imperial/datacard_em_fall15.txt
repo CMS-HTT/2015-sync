@@ -1,7 +1,10 @@
 datacard in
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-160216/htt_em.inputs-sm-13TeV-mvis.root (with n-jet binned DY samples)
 /afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-040216/htt_em.inputs-sm-13TeV-mvis.root (w/ PU weights)
 /afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-040216-NoPU/htt_em.inputs-sm-13TeV-mvis.root (w/o PU weights)
 
+[16/02]
+ - Adding n-jet binned DY samples
 [04/02]
  - Adding t-channel tbar sample + small amount of missing data
 [01/02]

@@ -14,6 +14,9 @@ Fall 15, miniAOD v2
 [16/02]
  - svFit added using git checkout dd7cf43e3f930040959f7d700cef976307d7cec3
 
+[17/02]
+ - svFit corrected, 100% sync to 3 decimals with IC on all svFit variables
+
 
 
 

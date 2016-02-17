@@ -17,6 +17,13 @@ Fall 15, miniAOD v2
  - svFit added using git checkout dd7cf43e3f930040959f7d700cef976307d7cec3
  - currently svFit is ordering taus by isolation not pt as is recommeneded
 
+[17/02]
+ - svFit corrected, 100% sync to 3 decimals with IC on all svFit variables
+ - sorting and ordering by ByIsolationMVArun2v1DBoldDMwLTraw
+ - still have 2 prongs (this is a tiny fraction for this signal sample)
+
+
+ 
 
 
 Spring 15, miniAOD v2

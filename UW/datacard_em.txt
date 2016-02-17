@@ -11,6 +11,8 @@ location -
  - using 76x puweights
  - DYJets is not split into gen categories (will happen very soon!)
 
+[17/02]
+ - added generator matching based shapes
 
 
 

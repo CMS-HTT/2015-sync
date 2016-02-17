@@ -1,12 +1,11 @@
 [sync ntuple location]
-#Sorting my MVA Iso
-/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2_fall15_MVASort.root 
+#Sorting my MVA Iso and svFit included
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2_fall15_svFit.root 
 
-#76X Fall 15 ntuples
-/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2_fall15.root
+[Feb 17]
+added svFit 
+removed 2 prong
 
-#74X
-#/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2.root
 
 [Feb 2]
 Update MVA Sorting

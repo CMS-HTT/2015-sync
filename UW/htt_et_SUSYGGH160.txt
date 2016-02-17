@@ -1,13 +1,11 @@
 [sync location]
 #Fall 15 Sort by MVA
-/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_miniAODv2_fall15_MVASort.root 
-
-#Fall15 76X 
-/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_miniAODv2_fall15.root
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_miniAODv2_fall15_svFit.root 
 
 
-#74X
-#/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_miniAODv2.root
+[Feb 17]
+Removed 2 prong
+added svFit
 
 [Feb 2]
 Updating MVA sorting

@@ -1,8 +1,14 @@
 Ntuple location: 
 
-/afs/cern.ch/user/r/rfriese/public/SUSYGluGluToHToTauTauM160_et_RunIIFall15MiniAODv2_13TeV_MINIAOD.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20160217-fall15/SUSYGluGluToHToTauTauM160_et_RunIIFall15MiniAODv2_13TeV_MINIAOD.root
 
 Log of changes:
+[17.02]
+- No SVFit branches
+- Fix wrong WP on the b-tag discriminator
+- Updating pair sorting algorithm
+- Dropping new tau DM's
+
 [26.01]
 - Switched to triggers as used in Run2015D
 - used GT 76X_mcRun2_asymptotic_v12

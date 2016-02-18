@@ -1,0 +1,6 @@
+datacard in 
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160218-fall15/htt_mt.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
+
+[18.02]
+- Includes PU weights, no other scale factors. DY from LO DYJetsToLL_M-50, W+Jets from LO
+- Known problems in VV xsection/weights for some of the samples, to be fixed in next iteration

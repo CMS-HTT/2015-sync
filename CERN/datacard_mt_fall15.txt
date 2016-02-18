@@ -1,4 +1,7 @@
-/afs/cern.ch/user/s/steggema/public/Sync2015/mt/htt_mt.inputs-sm-13TeV-mvis-puweight.root
+/afs/cern.ch/user/s/steggema/public/Sync2015/mt/htt_mt.inputs-sm-13TeV-mvis-puweight_2.root
+
+# 18/02: Update isolation/sorting; add more samples (single top tbar missing)
+
 /afs/cern.ch/user/s/steggema/public/Sync2015/mt/htt_mt.inputs-sm-13TeV-mvis-nopuweight.root
 
 # 11/02: Fix Z splitting

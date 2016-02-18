@@ -1,6 +1,9 @@
 datacard location:
     current: /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et.inputs-mssm-13TeV.root
 
+[Feb 18]
+no trig weight, no id weight
+
 [Feb 12]
 Sorting by MVA Iso
 no trig weight no id weight (74X)

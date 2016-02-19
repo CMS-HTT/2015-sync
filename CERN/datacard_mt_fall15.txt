@@ -1,4 +1,4 @@
-/afs/cern.ch/user/s/steggema/public/Sync2015/mt/htt_mt.inputs-sm-13TeV-mvis-puweight_2.root
+/afs/cern.ch/user/s/steggema/public/Sync2015/mt/htt_mt.inputs-sm-13TeV-mvis-puweight_3.root
 
 # 18/02 2: Add single top tbar, don't apply iso weights
 # 18/02: Update isolation/sorting; add more samples (single top tbar missing)

@@ -1,0 +1,2 @@
+17/02/2016 initial synch NTuple for tt channel (RunIIFall15MiniAODv2 MC) taking into account all the proposed selection changes so far, "except cut on l1 iso taus".
+/afs/cern.ch/work/a/anayak/public/HTauTau/Synch-RunIIFall15MiniAODv2/17Feb2016/SUSYGluGluToHToTauTau_M-160_tt_RunIIFall15MiniAODv2.root

@@ -1,5 +1,9 @@
 datacard in 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160218-fall15/htt_em.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160219-fall15/htt_em.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
+
+[19.02]
+- Diboson weights fixed
+- Fix in lumi scaling
 
 [18.02]
 - Includes PU weights, no other scale factors. DY from LO DYJetsToLL_M-50, W+Jets from LO

@@ -2,6 +2,11 @@
 #Sorting my MVA Iso and svFit included
 /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_mt_SUSYGGH160_miniAODv2_fall15_svFit.root 
 
+[Feb18]
+Added svFit
+Updated MVAsorting to oldDMs
+known difference in puweights
+
 [Feb 17]
 added svFit 
 removed 2 prong

@@ -2,6 +2,10 @@
 #Fall 15 Sort by MVA
 /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_miniAODv2_fall15_svFit.root 
 
+[Feb19]
+Updated to oldDM MVAIso sorting
+added svFit
+known difference in puweights
 
 [Feb 17]
 Removed 2 prong

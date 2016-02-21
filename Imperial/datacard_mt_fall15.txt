@@ -1,5 +1,8 @@
 datacard in
-/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-190216/htt_mt.inputs-sm-13TeV-mvis.root 
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-210216/htt_mt.inputs-sm-13TeV-mvis.root 
+
+[21/02]
+ - Adding new lepton scale factors
 
 [19/02]
  - Taking W from LO sample

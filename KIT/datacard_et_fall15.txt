@@ -1,5 +1,8 @@
 datacard in 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160219-fall15/htt_et.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160220-fall15/htt_et.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
+
+[20.02]
+- Id/Iso/trigger scale factors added
 
 [19.02]
 - Diboson weights fixed

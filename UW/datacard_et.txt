@@ -1,6 +1,10 @@
 datacard location:
     current: /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et.inputs-mssm-13TeV.root
 
+[Feb 22]
+Updated Tau ID to tight MVA sorted. 
+
+
 [Feb 18]
 no trig weight, no id weight
 

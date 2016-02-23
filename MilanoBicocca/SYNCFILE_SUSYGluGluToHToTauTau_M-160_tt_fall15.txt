@@ -1,5 +1,8 @@
 Fall15 syncNtuple:
 /afs/cern.ch/work/f/fbrivio/public/Sync2015/SUSYGluGluToHToTauTau_M-160_tt_fall15.root
 
+[23/02/2016]
+- Update of tt SyncFile, still no MET/SVFit
+
 [10/02/2016]
 - first version of tt SyncFile, no MET, no SVFits

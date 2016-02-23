@@ -1,8 +1,11 @@
 Ntuple location: 
 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20160217-fall15/SUSYGluGluToHToTauTauM160_et_RunIIFall15MiniAODv2_13TeV_MINIAOD.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20160223-fall15/SUSYGluGluToHToTauTauM160_et_RunIIFall15MiniAODv2_13TeV_MINIAOD.root
 
 Log of changes:
+[23.02]
+- Fall15 id/iso/trigger scale factors added
+
 [17.02]
 - No SVFit branches
 - Fix wrong WP on the b-tag discriminator

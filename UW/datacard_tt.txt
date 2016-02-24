@@ -26,6 +26,7 @@ location -
  - lumi is updated to 2.3 / fb
  - using DYJets NJet binned samples
  - using LO WJets sample
+ - added tau trigger efficiencies per Riccardo's prescription
 
 
 

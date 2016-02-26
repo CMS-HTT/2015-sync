@@ -1,5 +1,8 @@
 datacard in 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160219-fall15/htt_tt.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160226-fall15/htt_tt.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
+
+[26.02]
+- Use jet-binned DY samples
 
 [19.02]
 - Diboson weights fixed

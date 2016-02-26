@@ -1,5 +1,8 @@
 datacard in 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160220-fall15/htt_mt.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160226-fall15/htt_mt.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
+
+[26.02]
+- Use jet-binned DY samples
 
 [20.02]
 - Id/Iso/trigger scale factors added

@@ -1,0 +1,3 @@
+/afs/cern.ch/user/j/jbrandst/public/datacardSync/76X_20160225/htt_mt.inputs-sm-13TeV.root
+
+0225: initial commit, w/o diboson samples, lumi 2.243 fb^-1

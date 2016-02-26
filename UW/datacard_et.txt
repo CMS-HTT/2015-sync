@@ -1,6 +1,12 @@
 datacard location:
     current: /afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et.inputs-mssm-13TeV.root
 
+[Feb 24]
+Updated to 76X Scale Factors
+Updated to new Lumi estimate 2315 pb ^-1
+With pu weight, idweight, twiki gen selections.
+known using different TT sample
+
 [Feb 22]
 Updated Tau ID to tight MVA sorted. 
 

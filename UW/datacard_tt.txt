@@ -4,6 +4,8 @@
 Fall 2015 datacards:
 location -
     first: /afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/dataCards2015/feb17/htt_tt.inputs-sm-13TeV.root 
+    second: /afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/dataCards2015/feb24/htt_tt.inputs-sm-13TeV.root  -- m_vis
+    second: /afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/dataCards2015/feb24/htt_tt.inputs-sm-13TeV_svFit.root  -- svFitMass
 
 [17/02]
  - m_vis based
@@ -18,7 +20,13 @@ location -
 [19/02]
  - fixed work flow
 
-
+[24/02]
+ - pu reweighting (this was in earlier as well)
+ - added l1 iso tau matching
+ - lumi is updated to 2.3 / fb
+ - using DYJets NJet binned samples
+ - using LO WJets sample
+ - added tau trigger efficiencies per Riccardo's prescription
 
 
 

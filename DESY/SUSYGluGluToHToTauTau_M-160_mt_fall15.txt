@@ -1,0 +1,5 @@
+Latest NTuple
+
+/afs/cern.ch/user/v/vbotta/public/HTT-synch/Fall15/26022016/SUSYGluGluToHToTauTau_M-160_mt_Sync.root
+
+26/02/2016: first NTuple with 76X samples

@@ -1,5 +1,8 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-220216/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_fall15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-280216/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_fall15.root
+
+[28/02]
+ - Updating to new JECs and mvamet
 
 [22/02]
  - Adding fall15 scale factors

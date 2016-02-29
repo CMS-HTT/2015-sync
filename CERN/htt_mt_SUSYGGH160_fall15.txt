@@ -1,5 +1,6 @@
-/afs/cern.ch/user/s/steggema/public/Sync2015/mt/SUSYGluGluToHToTauTau_M-160_fall15_3.root
+/afs/cern.ch/user/s/steggema/public/Sync2015/mt/SUSYGluGluToHToTauTau_M-160_fall15_4.root
 
+# 29 Feburary: New JEC, new MVA MET, new lepton weights
 # 16 February: Remove old DMs, new sorting, MVA MET
 # 2 Feburary: New pair choice (but no MVA MET/SVFit)
 # 27 January: Initial commit

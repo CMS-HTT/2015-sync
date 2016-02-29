@@ -1,4 +1,4 @@
 datacard in:
-/afs/cern.ch/user/j/jbrandst/public/datacardSync/htt_mt.inputs-sm-13TeV.root (w/ PU reweighting)
+/afs/cern.ch/user/j/jbrandst/public/datacardSync/htt_et.inputs-sm-13TeV.root (w/ PU reweighting)
 
 used json file is Cert_246908-260627_13TeV_PromptReco_Collisions15_25ns_JSON_v2.txt with 2.25 1/fb

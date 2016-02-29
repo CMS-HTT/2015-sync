@@ -175,7 +175,7 @@ if __name__ == '__main__':
     parser.add_option('-c', '--no-common', dest='do_common', action='store_false', default=True, help='Do not produce plots for events in common')
     parser.add_option('-r', '--no-ratio', dest='do_ratio', action='store_false', default=True, help='Do not show ratio plots')
     parser.add_option('-d', '--diff', dest='do_diff', action='store_true', default=False, help='Print events where single variable differs')
-    parser.add_option('-v', '--var-diff', dest='var_diff', default='dilepton_veto', help='Variable for printing single event diffs')
+    parser.add_option('-v', '--var-diff', dest='var_diff', default='pt_1', help='Variable for printing single event diffs')
 
     (options,args) = parser.parse_args()
 

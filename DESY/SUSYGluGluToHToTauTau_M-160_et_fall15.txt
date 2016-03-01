@@ -1,5 +1,7 @@
 Latest NTuple
 
-/afs/cern.ch/user/v/vbotta/public/HTT-synch/Fall15/26022016/SUSYGluGluToHToTauTau_M-160_et_Sync.root
+/afs/cern.ch/user/f/fcostanz/public/Fall15/010316/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_010316.root
+
+01/03/2016: new mva met + bug fixes
 
 26/02/2016: first NTuple with 76X samples

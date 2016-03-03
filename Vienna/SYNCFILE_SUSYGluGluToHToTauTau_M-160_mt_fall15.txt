@@ -1,7 +1,12 @@
-/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15_v2.root
+/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15_v3.root
 
+160303:
+/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15_v3.root
+new mvamet, new jec
 160116:
+/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15_v2.root
 new tauId selection, adding trigger and IdIso weights
 160204:
+/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15_v1.root
 first commit of fall15 sync
 w/o svfit mass 

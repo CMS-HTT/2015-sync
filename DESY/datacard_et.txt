@@ -1,0 +1,14 @@
+datacards et channel :
+w/o PU and w/o Lep SF : /afs/cern.ch/user/f/fcostanz/public/Synch-MiniAODv2/071215/htt_et.inputs-sm-13TeV-mvis.root
+w PU and 2 Lep SF   : /afs/cern.ch/user/f/fcostanz/public/Synch-MiniAODv2/200116/htt_et.inputs-sm-13TeV-mvis.root
+
+[20/01/2016]
+Run2015D, 2.110 fb-1
+et_inclusive and et_inclusivemtnotwoprong
+
+[07/12/2015]
+correct xs for single top leptonic decay samples
+
+[30/11/2015]
+Run2015D, 2.094 fb-1
+et_inclusive only

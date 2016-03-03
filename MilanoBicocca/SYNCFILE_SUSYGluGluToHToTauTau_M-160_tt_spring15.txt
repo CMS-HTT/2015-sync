@@ -1,0 +1,11 @@
+Latest sync ntuple in:
+/afs/cern.ch/work/f/fbrivio/public/Sync2015/SUSYGluGluToHToTauTau_M-160_tt_spring15.root
+
+[9/10/2015]
+- Added SVFit
+
+[5/10/2015]
+- Added mvaMET
+
+[24/9/2015]
+- First version of spring15 sync ntuple

@@ -1,0 +1,9 @@
+datacard in
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-010216/htt_mt.inputs-sm-13TeV-mvis.root
+
+[01/02]
+ - Initial commit. Includes PU weights, no other scale factors. Pair sorting using dbeta corr iso.
+    DY from LO DYJetsToLL_M-50, W+Jets from aMC@NLO, t-channel tbar, VVTo2L2Nu,
+   ZZTo2L2Q,WZTo2L2Q,WZTo1L1Nu2Q missing
+
+

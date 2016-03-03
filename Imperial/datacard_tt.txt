@@ -1,0 +1,19 @@
+datacard in 
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-011215/htt_tt.inputs-sm-13TeV-mvis.root (w/o PU reweighting)
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-081215/htt_tt.inputs-sm-13TeV-mvis.root (w/ PU reweighting)
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-110116/htt_tt.inputs-sm-13TeV-mvis.root (w/ PU reweighting and ht-binned samples)
+
+[11/01]
+ - Adding HT-binned samples for DY and W+Jets
+[08/12]
+ - Changing muon status flag
+[01/12]
+ - Correcting XS scaling of t-channel single top samples
+[28/11]
+ - Run D only. Switching tau isolation to db corrected tight WP
+ - Updated diboson samples
+[20/11]
+ - Correcting antiE disciminator cuts
+ - Updating to 2.11 fb^{-1} golden json
+[06/11]
+ - Initial commit of tt datacard for dc sync, using samples detailed in 06/11 sync update e-mail

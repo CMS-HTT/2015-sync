@@ -1,0 +1,11 @@
+datacards em channel :
+with PU reweighting    : /afs/cern.ch/user/r/rasp/public/Synch-Spring15/htt_em.inputs-sm-13TeV-mvis.root 
+without PU reweighting : /afs/cern.ch/user/r/rasp/public/Synch-Spring15/htt_em.inputs-sm-13TeV-mvis_noPU.root
+
+[30/11/2015]
+MC sample ST_t-channel_top_4f_leptonDecays_13TeV is added.
+Full set of MC samples is included in datacards.
+
+[29/11/2015]
+Run2015D only, 
+MC sample 'ST_t-channel_top_4f_leptonDecays_13TeV' is still missing.

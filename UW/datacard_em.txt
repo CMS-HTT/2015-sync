@@ -1,0 +1,10 @@
+datacard location:
+    current: /afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/dataCards2015/dec07/htt_em.inputs-sm-13TeV_mVisPUReweight.root - m_vis & PU reweighted
+    initial: /afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/dataCards2015/htt_em.inputs-sm-13TeV.root
+
+[07/12]
+ - Using official PU reweighting
+ - Switched to lower threshold triggers
+
+[25/11]
+ - Initial commit, 2.11 / fb, no generator flags yet, ZTT = all DYJets

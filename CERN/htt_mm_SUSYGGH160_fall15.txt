@@ -1,0 +1,4 @@
+/afs/cern.ch/user/s/steggema/public/Sync2015/mm/SUSYGluGluToHToTauTau_M-160_fall15.root
+
+# 27 January: Initial commit
+# With 20 GeV/10 GeV cuts and single-muon triggers (not on sync TWiki page (yet?)

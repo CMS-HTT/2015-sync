@@ -1,0 +1,14 @@
+Version1 syncNtuple:
+/afs/cern.ch/work/f/fbrivio/public/Sync2015/SUSYGluGluToHToTauTau_M-160_mt_spring15.root
+
+[12/10/2015]
+- Added SVFit
+
+[7/10/2015]
+- Added mvaMET
+
+[1/1072015]
+- Fixed Trigger paths
+
+[24/9/2015]
+- First version of spring15 sync ntuple

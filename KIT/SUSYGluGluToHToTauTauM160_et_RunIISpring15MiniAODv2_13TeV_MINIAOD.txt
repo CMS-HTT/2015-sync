@@ -1,0 +1,18 @@
+Ntuple location:
+
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20151204-miniAODv2/SUSYGluGluToHToTauTauM160_et_RunIISpring15MiniAODv2_13TeV_MINIAOD.root
+
+Log of changes:
+[04.12]
+- Fix in b-tag WP
+- PU weight branch filled
+[26.11]
+- MC matching flags added, matching cone 0.2
+[11.11]
+- Lower threshold triggers in EM channel
+[26.10]
+- Additional pT cut of 23 GeV to electron trigger objects
+[22.10]
+- HLT paths and e/mu pT cuts updated (ET/MT channels). No additional pT cut on HLT object yet
+[15.10]
+- MiniAODv2 first upload (same selections and WPs as previous version)

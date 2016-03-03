@@ -1,5 +1,36 @@
 [sync location]
-/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160.root
+#Fall 15 Sort by MVA
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_miniAODv2_fall15_MVASort.root 
+
+#Fall15 76X 
+/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_miniAODv2_fall15.root
+
+
+#74X
+#/afs/cern.ch/user/l/ldodd/public/2015-sync/htt_et_SUSYGGH160_miniAODv2.root
+
+[Feb 2]
+Updating MVA sorting
+
+
+[Feb 2]
+New sort by byIsolationMVArun2v1DBnewDMwLTraw
+Added MVAMET, no SVfit.
+
+[Jan27]
+Preliminary sync ntuple upload
+No SVFit, no MVAMet in this upload.
+
+
+
+[Nov 5]
+Trigger pt cut added, jet id's updated
+Still missing MVAMet and SVFit
+
+[Nov 4]
+Added miniAODv2 starting place. 
+Cut on trigger pt needs to be added, jet ids need to be updated
+
 
 [Aug 18]
 

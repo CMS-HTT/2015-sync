@@ -1,0 +1,3 @@
+03/12/2015 initial synch NTuple for tt channel (miniAODv2 MC) taking into account all the proposed selection changes so far
+/afs/cern.ch/work/a/anayak/public/HTauTau/Synch-MiniAODv2/03Dec/SUSYGluGluToHToTauTau_M-160_tt_miniAODv2.root
+

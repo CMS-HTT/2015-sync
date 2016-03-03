@@ -1,0 +1,7 @@
+Latest NTuple
+/afs/cern.ch/user/f/fcostanz/public/Synch-MiniAODv2/200116/SUSYGluGluToHToTauTau_M-160_et_Sync.root
+
+20/01/2016: added trigger and idiso efficiencies
+09/12/2015: synchronization of mva met
+	    added pfmet, puppimet, and mva met related quantities
+27/11/2015: first commit for MiniAODv2

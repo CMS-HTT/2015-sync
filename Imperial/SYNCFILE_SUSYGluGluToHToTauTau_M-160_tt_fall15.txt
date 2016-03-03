@@ -1,0 +1,10 @@
+sync ntuple in
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-270116/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_fall15.root
+
+[27/01]
+ - Lowering pT threshold to 40 GeV
+ - Adding some missing branches
+ - Adding SVFit
+
+[26/01]
+ - First version of fall 15 sync ntuple, SVFit missing

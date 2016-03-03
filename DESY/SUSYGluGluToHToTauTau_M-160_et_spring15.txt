@@ -1,5 +1,11 @@
 Latest NTuple
-/afs/cern.ch/user/f/fcostanz/public/Synch-Spring15/180815/SUSYGluGluToHToTauTau_M-160_et_Sync.root
+/afs/cern.ch/user/f/fcostanz/public/Synch-Spring15/111015/SUSYGluGluToHToTauTau_M-160_et_Sync.root
+
+11/10/2015: fixed JEC
+            updated PF JetID
+            fixed PV selection
+            pairwise MVA MET added
+            updated electron id
 
 17/08/2015: fixed dilepton and extra lepton veto
 

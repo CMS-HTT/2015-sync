@@ -1,0 +1,5 @@
+/afs/cern.ch/user/c/ccaillol/public/htt_mt.inputs-sm-13TeV_mvis_noPU.root
+
+### 16 dec 2015 ###
+mt inclusive category, no PU reweighting
+known problem in VV (one of the MC missing)

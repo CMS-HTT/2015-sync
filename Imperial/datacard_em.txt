@@ -1,0 +1,19 @@
+datacard in 
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-011215/htt_em.inputs-sm-13TeV-mvis.root (w/o PU reweighting, scale factors, ht-binned samples)
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-081215/htt_em.inputs-sm-13TeV-mvis.root (w/ PU reweighting, w/o scale factors, ht-binned samples)
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-110116/htt_em.inputs-sm-13TeV-mvis.root (w/ PU reweighting, scale factors, ht-binned samples)
+
+[11/01]
+ - Adding HT binned samples for DY and W+Jets
+ - Adding e/mu idiso and trigger scale factors
+[08/12]
+ - Changing muon status flag
+[01/12]
+ - Correcting XS scaling of t-channel single top samples
+[28/11]
+ - Run D only, using lower threshold triggers
+ - Updated diboson samples
+[20/11]
+ - Updating to 2.1 fb^{-1} golden json, still using the old triggers
+[06/11]
+ - Initial commit of em datacard for dc sync, using old triggers but new samples from 06/11 sync e-mail

@@ -1,0 +1,4 @@
+/afs/cern.ch/user/j/jbrandst/public/datacardSync/76X_20160225/htt_et.inputs-sm-13TeV.root
+
+0229: initial commit, w/o diboson samples w/o single top samples, lumi 2.243 fb^-1
+      slightly wrong POG Phys14 25ns cut-based "Veto" ID

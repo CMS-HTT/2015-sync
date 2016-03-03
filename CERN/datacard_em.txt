@@ -1,0 +1,9 @@
+(w/ PU)
+/afs/cern.ch/user/y/ytakahas/public/forHTT/em/datacard/htt_em.inputs-sm-13TeV-mvis.root
+
+(w/o PU)
+/afs/cern.ch/user/y/ytakahas/public/forHTT/em/datacard/htt_em.inputs-sm-13TeV-mvis_noPU.root
+
+
+# 1/12: update with PU weighted datacards
+# 30/11: Initial upload

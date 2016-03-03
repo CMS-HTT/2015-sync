@@ -1,6 +1,14 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-110915/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-091015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_spring15.root
 
+[09/10]
+ - Using latest PFJetID
+[08/10]
+ - Fixing mvamet + using JECs from gt 74X_mcRun2_asymptotic_v2 for mvamet
+[21/09]
+ - Added lepton mc information (mc_origin_1,mc_origin_2)
+[14/09]
+ - Added svfit
 [11/09]
  - Use JECs from Summer15_V5_MC for mvamet
 [28/08]

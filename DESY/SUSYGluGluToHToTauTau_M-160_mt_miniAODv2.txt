@@ -1,0 +1,5 @@
+Latest NTuple
+/afs/cern.ch/user/r/rasp/public/Synch-Spring15/SUSYGluGluToHToTauTau_M-160_mt_DESY.root
+
+23/11/2015 : First commit : MiniAODv2 sample
+/SUSYGluGluToHToTauTau_M-160_TuneCUETP8M1_13TeV-pythia8/RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/MINIAODSIM

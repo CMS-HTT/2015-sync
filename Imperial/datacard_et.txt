@@ -1,0 +1,23 @@
+datacard in 
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-011215/htt_et.inputs-sm-13TeV-mvis.root (w/o PU reweighting)
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-081215/htt_et.inputs-sm-13TeV-mvis.root (w/ PU reweighting)
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-011215-pfmet-NoPU/htt_et.inputs-sm-13TeV-mvis.root (w/o PU reweighting, mt cut using pfmet)
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-011215-pfmet-PU/htt_et.inputs-sm-13TeV-mvis.root (w/ PU reweighting, mt cut using pfmet)
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-110116/htt_et.inputs-sm-13TeV-mvis.root (w/ PU reweighting, lepton scale factors and ht-binned samples)
+
+[11/01]
+ - Adding electron idiso and trigger scale factors
+ - Adding HT-binned samples for DY and W+Jets
+[08/12]
+ - Changing muon status flag
+ - Small fix in data trigger
+[01/12]
+ - Correcting XS scaling of t-channel single top samples
+[28/11]
+ - Run D only. Switching tau isolation to db corrected medium WP
+ - Updated diboson samples
+ - Added category excluding two prong taus and using mt_1<40
+[20/11]
+ - Updating to 2.11 fb^{-1} golden json
+[06/11]
+ - Initial commit of et datacard for dc sync, using samples announced in 06/11 sync e-mail

@@ -1,0 +1,6 @@
+/afs/cern.ch/user/s/steggema/public/Sync2015/mt/SUSYGluGluToHToTauTau_M-160_miniAODv2_3.root
+
+# 24 November: Small updates (note again no MVA MET and SVFit which are in _2.root)
+# 4 November: Add MVA MET + SVFit
+# 26 October: Add trigger object pT cut; update b-tag WP
+# 21 October: Initial upload

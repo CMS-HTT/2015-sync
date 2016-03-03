@@ -1,8 +1,12 @@
 Ntuple location:
 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20150908/SUSYGluGluToHToTauTauM160_em_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20151012/SUSYGluGluToHToTauTauM160_em_RunIISpring15DR74_Asympt25ns_13TeV_MINIAODSIM.root
 
 Log of changes:
+[12.10]
+- Latest PFJet ID (loose WP, see: https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetID#Recommendations_for_13_TeV_data)
+[07.10]
+- JEC for MVA MET as in GlobalTag "74X_mcRun2_asymptotic_v2"
 [08.09]
 - Fix in jets used for MVA MET calculation
 [25.08]

@@ -1,0 +1,19 @@
+datacard in 
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20151204-miniAODv2/htt_em.inputs-sm-13TeV-mvis.root (w/o PU-reweighting)
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20151204-miniAODv2-wPU/htt_em.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
+
+[04/12]
+- Fix in Single Top xsec value
+[28/11]
+- Run 2015D only
+[26/11]
+- Splitting of DY sample using MC matching flags, PU-reweighting of the events switched off
+[25/11]
+- Same as 22.11 status, using the full 2.11 /fb golden JSON (only 2015D)
+[22/11]
+- 1.28 /fb golden JSON
+  Gen/reco matching cone 0.2; all used samples according to the prescriptions of the working TWiki.
+  Known differences: DY splitting in ZL+ZJ not done using the MC matching flags
+[15/11]
+- Initial commit. Sync status as of 11/11, with the corresponding prescriptions.
+  Known differences: NLO DY sample, DY splitting in ZL+ZJ not done using the MC matching flags, gen/reco matching cone is still 0.5

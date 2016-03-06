@@ -1,6 +1,8 @@
 Latest NTuple
 
-/afs/cern.ch/user/f/fcostanz/public/Fall15/010316/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_010316.root
+/afs/cern.ch/user/f/fcostanz/public/Fall15/060316/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_060316.root
+
+06/03/2016: mvamet 0.6 + new JEC
 
 01/03/2016: new mva met + bug fixes
 

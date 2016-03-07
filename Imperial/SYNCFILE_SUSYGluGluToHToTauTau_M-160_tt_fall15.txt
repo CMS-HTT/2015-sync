@@ -1,5 +1,8 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-280216/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_fall15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-060316/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_fall15.root
+
+[06/03]
+ - Adding latest version of mvamet
 
 [28/02]
  - Updating to latest JECs and new mvamet

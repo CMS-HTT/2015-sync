@@ -1,5 +1,8 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-060316/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_fall15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-080316/SYNCFILE_SUSYGluGluToHToTauTau_M-160_em_fall15.root
+
+[08/03]
+ - Small fix in trigger and idiso weights
 
 [06/03]
  - Adding latest version of mvamet

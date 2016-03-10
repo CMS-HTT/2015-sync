@@ -1,0 +1,6 @@
+/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_fall15_v4.root
+
+160310:
+/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_tt_fall15_v4.root
+first upload of tt channel
+new mvamet beta0.6, update of missing variables

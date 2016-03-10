@@ -1,5 +1,8 @@
-/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15_v3.root
+/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15_v4.root
 
+160310:
+/afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15_v4.root
+new mvamet beta0.6, update of missing variables
 160303:
 /afs/cern.ch/user/j/jbrandst/public/Sync2015/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15_v3.root
 new mvamet, new jec

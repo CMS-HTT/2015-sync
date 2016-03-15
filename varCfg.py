@@ -6,8 +6,8 @@ var_dict = {
 }
 
 category_dict = {
-    'et':['et_inclusive','et_inclusivemtnotwoprong'],
-    'mt':['mt_inclusive','mt_inclusivemtnotwoprong'],
+    'et':['et_inclusive','et_inclusivemt40'],
+    'mt':['mt_inclusive','mt_inclusivemt40'],
     'em':['em_inclusive'],
     'tt':['tt_inclusive']
 }

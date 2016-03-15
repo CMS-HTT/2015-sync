@@ -1,5 +1,13 @@
 datacard in
-/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-210216/htt_et.inputs-sm-13TeV-mvis.root 
+/afs/cern.ch/work/a/adewit/public/datacardSync/dc-sync-150316/htt_et.inputs-sm-13TeV-mvis.root 
+
+[15/03]
+ - Replacing inclusive DY sample by higher stats DY sample
+ - Including low mass and high mass DY
+ - Adding missing diboson samples
+ - Using OS/SS ratio of 1
+ - new MVA met and recoil corrections (affect inclusivemt40 category)
+ - lumi = 2301 /pb
 
 [21/02]
  - Adding new lepton scale factors

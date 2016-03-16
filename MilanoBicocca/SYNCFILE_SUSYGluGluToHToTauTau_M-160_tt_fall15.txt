@@ -1,6 +1,9 @@
 Fall15 syncNtuple:
 /afs/cern.ch/work/f/fbrivio/public/Sync2015/SUSYGluGluToHToTauTau_M-160_tt_fall15_svfit.root
 
+[16/03/2016]
+- New version of MVAMET + SVFit
+
 [26/02/2016]
 - Added SVFit
 

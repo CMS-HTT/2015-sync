@@ -1,5 +1,11 @@
 datacard in 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160226-fall15/htt_et.inputs-sm-13TeV-mvis.root (w/ PU-reweighting)
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160316-fall15/htt_et.inputs-sm-13TeV-mvis.root
+
+[16.03]
+- Adding M150 DY sample
+- Adding new VVTo2L2Nu diboson sample
+- QCD OS/SS ratio = 1
+- Luminosity = 2301 /pb
 
 [26.02]
 - Use jet-binned DY samples

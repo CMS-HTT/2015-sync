@@ -4,6 +4,7 @@ datacard in
 [16.03]
 - Adding M150 DY sample
 - Adding new VVTo2L2Nu diboson sample
+- New mvamet (MVAMET2_beta_0.6)
 - QCD OS/SS ratio = 1
 - Luminosity = 2301 /pb
 

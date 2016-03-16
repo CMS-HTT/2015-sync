@@ -1,6 +1,8 @@
 Latest NTuple
 
-/afs/cern.ch/user/f/fcostanz/public/Fall15/060316/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_060316.root
+/afs/cern.ch/user/v/vbotta/public/HTT-synch/Fall15/16032016/SUSYGluGluToHToTauTau_M-160_TuneCUETP8M1_13TeV-pythia8_0_mt_Sync.root
+
+16/03/2016: btag variables synch
 
 06/03/2016: mvamet 0.6 + new JEC 
 

@@ -1,5 +1,8 @@
 datacard in 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160320-fall15/htt_em.inputs-sm-13TeV-mvis.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/datacards/20160323-fall15/htt_em.inputs-sm-13TeV-mvis.root
+
+[23.03]
+- Trigger weight applied
 
 [20.03]
 - Fix in gen m_ll (influences DY stitching procedure)

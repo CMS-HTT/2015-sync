@@ -1,3 +1,8 @@
+/afs/cern.ch/work/m/manzoni/public/fall15/datacard/htt_tt.inputs-sm-13TeV.root        ---   mvis
+/afs/cern.ch/work/m/manzoni/public/fall15/datacard/htt_tt.inputs-sm-13TeV_svFit.root  ---   svfit
+
+# 24/03: added trigger weights and svfit
+
 /afs/cern.ch/user/s/steggema/public/Sync2015/tt/htt_mt.inputs-sm-13TeV-mvis-puweight_2.root
 
 # 18/02: Update to latest tau ID

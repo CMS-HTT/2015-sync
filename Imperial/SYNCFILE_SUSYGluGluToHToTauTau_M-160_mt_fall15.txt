@@ -1,5 +1,9 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-060316/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-280316/SYNCFILE_SUSYGluGluToHToTauTau_M-160_mt_fall15.root
+
+[28/03]
+ - Including recoil corrections
+ - Adding SVFit
 
 [06/03]
  - Updating to latest version of mvamet

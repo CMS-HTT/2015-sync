@@ -1,5 +1,9 @@
 sync ntuple in
-/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-080316/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_fall15.root
+/afs/cern.ch/work/a/adewit/public/syncNtuples/sync-280316/SYNCFILE_SUSYGluGluToHToTauTau_M-160_et_fall15.root
+
+[28/03]
+ - Adding SVFit
+ - Including recoil corrections
 
 [08/03]
  - Small fix to idiso&trigger weights

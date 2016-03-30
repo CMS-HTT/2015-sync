@@ -4,7 +4,8 @@ Ntuple location:
 
 Log of changes:
 [30.03]
-- Add variables for recoil correction
+- Adding variables for recoil correction
+- Applying recoil corrections
 - Important remark: cut on L1 iso taus still missing
 
 [11.03]

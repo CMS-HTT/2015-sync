@@ -4,7 +4,8 @@ Ntuple location:
 
 Log of changes:
 [30.03]
-- Add variables for recoil correction
+- Adding variables for recoil corrections
+- Applying recoil corrections
 
 [11.03]
 - New mvamet (MVAMET2_beta_0.6)

@@ -1,8 +1,11 @@
 Ntuple location: 
 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20160311-fall15/SUSYGluGluToHToTauTauM160_mt_RunIIFall15MiniAODv2_13TeV_MINIAOD.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20160330-fall15/SUSYGluGluToHToTauTauM160_mt_RunIIFall15MiniAODv2_13TeV_MINIAOD.root
 
 Log of changes:
+[30.03]
+- Add variables for recoil correction
+
 [11.03]
 - New mvamet (MVAMET2_beta_0.6)
 

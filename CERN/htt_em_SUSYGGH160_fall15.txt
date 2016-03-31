@@ -1,5 +1,6 @@
-/afs/cern.ch/user/y/ytakahas/public/sync/SUSYGluGluToHToTauTau_M-160_em_fall15_v5.root
+/afs/cern.ch/user/s/steggema/public/Sync2015/em/SUSYGluGluToHToTauTau_M-160_fall15.root 
 
+# 31 Mar: latest greatest
 # 9 Mac: updated with latest MVA met
 # 10 Feb: add MVA met (not yet SVfit mass)
 # 6 Feb: Fixed trigweight_1, idisoweight_1 variable

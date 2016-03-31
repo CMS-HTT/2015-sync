@@ -1,5 +1,6 @@
-/afs/cern.ch/user/s/steggema/public/Sync2015/tt/SUSYGluGluToHToTauTau_M-160_fall15_7.root
+/afs/cern.ch/user/s/steggema/public/Sync2015/tt/SUSYGluGluToHToTauTau_M-160_fall15_8.root
 
+# 31 March: Update to latest greatest
 # 8 March: New MVA MET training (missing trigger weights)
 # 17 February: Fix leg sorting, don't allow 2 matches to 1 L1 object
 # 16 February: Remove old DMs, new sorting

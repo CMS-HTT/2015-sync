@@ -3,7 +3,8 @@
 
 
 Fall 15, miniAOD v2
-/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_tt_Fall15_miniAODv2.root
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_tt_Fall15_miniAODv2_20160403.root - newest
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_tt_Fall15_miniAODv2.root from [17/02]
 [25/1]
  - First round of 76x samples, need svFit and gen_mathching
 
@@ -22,7 +23,10 @@ Fall 15, miniAOD v2
  - sorting and ordering by ByIsolationMVArun2v1DBoldDMwLTraw
  - still have 2 prongs (this is a tiny fraction for this signal sample)
 
-
+[03/04]
+ - added gen mother inputs for recoil
+ - newest mvamet (not recoil corrected yet)
+ - btag promote/demote applied
  
 
 

@@ -1,10 +1,14 @@
 Ntuple location: 
 
-/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20160330-fall15/SUSYGluGluToHToTauTauM160_tt_RunIIFall15MiniAODv2_13TeV_MINIAOD.root
+/afs/cern.ch/user/f/fcolombo/public/Sync13TeV/20160403-fall15/SUSYGluGluToHToTauTauM160_tt_RunIIFall15MiniAODv2_13TeV_MINIAOD.root
 
 Log of changes:
+[04.03]
+- b-tag scale factors applied
+- Important remark: cut on L1 iso taus still missing
+
 [30.03]
-- Adding variables for recoil correction
+- Adding variables for recoil corrections
 - Applying recoil corrections
 - Important remark: cut on L1 iso taus still missing
 

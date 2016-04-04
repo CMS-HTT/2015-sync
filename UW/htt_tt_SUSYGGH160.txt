@@ -3,7 +3,8 @@
 
 
 Fall 15, miniAOD v2
-/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_tt_Fall15_miniAODv2_20160403.root - newest
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_tt_Fall15_miniAODv2_20160404.root - newest, with recoil and svFit
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_tt_Fall15_miniAODv2_20160403.root - without recoil or svFit
 /afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_tt_Fall15_miniAODv2.root from [17/02]
 [25/1]
  - First round of 76x samples, need svFit and gen_mathching
@@ -28,6 +29,9 @@ Fall 15, miniAOD v2
  - newest mvamet (not recoil corrected yet)
  - btag promote/demote applied
  
+[04/04]
+ - added recoil corrections to mvamet
+ - added svFit
 
 
 Spring 15, miniAOD v2

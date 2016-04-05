@@ -1,3 +1,15 @@
+/afs/cern.ch/work/m/manzoni/public/fall15/datacard/5april2016/htt_tt.inputs-sm-13TeV_svFitTrans.root
+/afs/cern.ch/work/m/manzoni/public/fall15/datacard/5april2016/htt_tt.inputs-sm-13TeV_svFit.root
+/afs/cern.ch/work/m/manzoni/public/fall15/datacard/5april2016/htt_tt.inputs-sm-13TeV_norm.root
+/afs/cern.ch/work/m/manzoni/public/fall15/datacard/5april2016/htt_tt.inputs-sm-13TeV.root
+
+# 5/04: - update to new recoil corrections and btag SF.
+        - fixed DY splitting into ZTT, ZL and ZJ
+        - using stitched samples for both DYJets and WJets
+            * DY + DY_ext1 + DY_high_mass + DY1J + DY2J + DY3J + DY4J
+            * W + W1J + W2J + W3J + W4J
+        - no-btag & b-tag categories coming soon
+
 /afs/cern.ch/work/m/manzoni/public/fall15/datacard/htt_tt.inputs-sm-13TeV.root        ---   mvis
 /afs/cern.ch/work/m/manzoni/public/fall15/datacard/htt_tt.inputs-sm-13TeV_svFit.root  ---   svfit
 

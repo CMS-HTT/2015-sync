@@ -9,5 +9,5 @@ category_dict = {
     'et':['et_inclusive','et_inclusivemt40'],
     'mt':['mt_inclusive','mt_inclusivemt40'],
     'em':['em_inclusive'],
-    'tt':['tt_inclusive']
+    'tt':['tt_inclusive','tt_btag','tt_nobtag']
 }

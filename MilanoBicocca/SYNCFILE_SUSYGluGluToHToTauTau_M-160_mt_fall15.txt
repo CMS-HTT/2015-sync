@@ -1,5 +1,5 @@
 Fall15 syncNtuple:
-/afs/cern.ch/work/f/fbrivio/public/Sync2015/SUSYGluGluToHToTauTau_M-160_mt_fall15_svfit.root
+/afs/cern.ch/work/f/fbrivio/public/Sync2015/sync_15_3_16/SUSYGluGluToHToTauTau_M-160_mt_fall15_svfit.root
 
 [26/10/2016]
 - Added MVAMET and SVFit

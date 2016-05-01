@@ -1,7 +1,7 @@
 
 
 Fall 15, miniAOD v2
-/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_em_Fall15_miniAODv2.root
+/afs/cern.ch/work/t/truggles/public/HTT-2015-Sync/Sync-HtoTT_em_Fall15_miniAODv2_20160501.root from [01/05]
 [25/1]
  - First round of 76x samples, need svFit and gen_mathching
 
@@ -16,6 +16,12 @@ Fall 15, miniAOD v2
 
 [17/02]
  - svFit corrected, 100% sync to 3 decimals with IC on all svFit variables
+
+[01/05]
+ - updated svFit
+ - added mt_tot
+ - b tag promote / demote
+
 
 
 
